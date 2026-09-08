@@ -42,4 +42,6 @@ Replacing a broken component with a working one restores the system only if the 
 
 The receiving relationship determines which corrections must propagate. It is unnecessary to revalidate unrelated material merely because a change occurred. It is necessary to revisit the arguments that consumed the changed assumption, range, timing, or authority.
 
+The [composed-sign case](examples/correcting-composed-signs.md) shows why correcting one component can worsen the received result. With both producer and consumer reversing a sign, a positive source arrives positive. Removing only the producer reversal makes the delivery negative. If the obligation concerns the end-to-end value, the intermediate convention alone does not determine the needed repair. If each component must independently preserve sign, both corrections are needed together. The obligation and the actual composition decide which change is adequate.
+
 This makes organization part of engineering. A dependency record is useful when it identifies actual consumers and the conditions they rely on. A generic graph of related names leaves the propagation judgment unsupplied.

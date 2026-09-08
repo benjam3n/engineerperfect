@@ -21,9 +21,15 @@ Refining an observation splits an old observation class into smaller classes. If
 
 Adding an available action can also make an empty intersection nonempty. Altering the plant can change all the sets U_K(x). Reducing uncertainty at the source can remove troublesome states or successors. The missing intervention can therefore be supplied by measurement, a different actuator, structural design, or changed exposure.
 
-These are alternatives with different costs. A demand for more reasoning or finer measurement is unjustified when a cheap common action already preserves the relevant condition. A demand for more powerful actuation is equally unjustified when the existing actions suffice once the missing distinction is measured.
+These are alternatives with different costs. A common preserving action establishes that additional information is unnecessary for the existence of a preserving policy. It does not establish that additional information cannot reduce the cost of a justified intervention. The earlier claim that a cheap common action made more inquiry unjustified confused these two questions.
+
+The [completed contribution choice](choosing-the-next-contribution.md) compares both possibilities. A common rebuild costs 4 in its calculation example, while inspecting the missing part and supplying that part costs 2. Once a common rebuild costing 1 is admitted instead, the planner stops inquiry and selects it directly. The adequacy condition survives; the optimal information choice changes with the available interventions and their costs.
 
 In the [water model](examples/water-level-control.md), a low/high reading is enough to preserve levels 1 through 9. Full state measurement is unnecessary for that requirement. Keeping the narrower region 4 through 6 from any of its initial levels requires three different preserving actions. Under the stated memoryless observation policy, merging any two of those levels loses the guarantee. The same plant therefore needs different distinctions under different operating requirements.
+
+## Information quantity does not determine its contribution
+
+The amount learned also does not determine an observation's contribution. In the [calculation repair](examples/repairing-an-unusable-calculation.md), identifying layout reveals two bits under an explicit uniform comparison but leaves the needed repair unresolved. A one-bit inspection supplies the decisive distinction at the same cost. Conversely, the two observations in [sign composition](examples/correcting-composed-signs.md) each leave the repair unresolved alone but jointly enable it. A distinction's contribution can depend on a later distinction; immediate uncertainty reduction does not supply that dependency analysis.
 
 ## An observation is not automatically timely enough
 

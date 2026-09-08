@@ -24,6 +24,14 @@ The second contribution removes a specific mathematical selection task from the 
 
 For philosophical work, a comparable defect is telling the reader to distinguish a claim from its assumptions while leaving the consequential assumption unidentified. In the service recommendation above, the missing premise is spare concurrent labor. Identifying it and deriving its absence changes which proposal remains defensible. The contribution finishes an inference rather than prescribing an attitude toward reasoning.
 
+## More information and immediate progress can both select the wrong work
+
+The instruction to determine the missing contribution still left an operation unsupplied in this repository: choosing whether to inspect further, which inspection to perform, or when to intervene using what is already established. [Choosing the next contribution](choosing-the-next-contribution.md) now supplies the exact selection and its conditional branches for explicit finite cases.
+
+Its calculation repair completes the undertaking for 2 work units. Beginning with an inquiry that reveals more bits costs 3 and improves none of the repaired outputs. Its sign case also defeats the opposite shortcut: requiring an immediate improvement from each observation rejects both first steps of a three-unit route in favor of a four-unit reset. The complete continuation establishes the observations' contribution.
+
+These are specific failures of selection criteria, not evidence that information or visible progress is generally bad. The replacements affect the [information analysis](information-and-control.md), [capability analysis](engineering-capability.md), working instructions, and executable planner. The same sign case then constructs an omitted operation that makes the earlier diagnostic optimum unnecessary. Our own optimized plan remains answerable to a better account of the available possibilities.
+
 ## Changing a description can leave the obstruction intact
 
 Recognizing a missing permission does not grant it. Understanding a repair requirement does not provide a repairer. An elegant map of dependencies can be accurate while every relevant action remains unavailable.

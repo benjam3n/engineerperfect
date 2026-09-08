@@ -8,6 +8,8 @@ The existing repositories already develop beneficial mind change, perspective co
 
 | What changes in the judgment | Completed work |
 |---|---|
+| Learning more can produce a worse next contribution | [Choosing the next contribution](choosing-the-next-contribution.md): the worked repair costs 2 units; inspecting layout first costs 3 despite revealing more bits |
+| Requiring immediate progress can reject every first step of a better route; a new operation can then eliminate the need for that route | [Correcting composed signs](examples/correcting-composed-signs.md): two observations beat a reset, and a constructed operation beats both within its proved conditions |
 | A perfect completion score can hide failure to serve the people the undertaking concerns | [Requirements and consequences](requirements-and-consequences.md): 100% completion can coexist with 10% coverage; repairing the score still leaves the missing service to supply |
 | More understanding is useful when its distinctions change the needed contribution | [Information and control](information-and-control.md): a low/high observation is sufficient for one water requirement; a narrower requirement needs more distinctions |
 | An impossible choice can expose a changeable premise | [Shaft-and-hole fit](examples/shaft-and-hole-fit.md): every original nominal design fails; changing manufacturing variation creates an exact feasible interval |
@@ -30,9 +32,12 @@ From the repository root, using Python 3.10 or newer and its standard library:
 
 ```sh
 python tools/run_examples.py
+python tools/run_contribution_examples.py
 python -m unittest discover -s tests -v
 ```
 
 [Computed results](evidence/computed-results.json) preserve the actual outputs. The control algorithms were compared with an independent enumeration of all stationary policies across 2,401 nondeterministic systems, including minimum worst-case arrival times. [Verification and its scope](evidence/verification.md).
+
+The [contribution results](evidence/contribution-results.json) retain executed repairs, the cost of different first inquiries, use of already available context, and correction of an incomplete case inventory. The new planner was compared with all 74 relevant inquiry trees across 8,192 costed finite problems. It supplies a plan or an explicit group of cases that available inquiries cannot separate and no common intervention can resolve.
 
 These are completed deductions, constructed examples, executable operations, and integrated corrections. Actual effects on a person's understanding, effort, conduct, and later capability require observations of those effects. Physical deployment and universal perfection are also unestablished. The aim is to supply the useful contribution with the least unnecessary delay and recipient work while preserving what its sound use requires. [Contribution instructions](AGENTS.md) · [Pinned sources](evidence/source-review.json).

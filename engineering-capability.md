@@ -24,6 +24,10 @@ For the narrower band, the required distinctions change. Retaining the cheap sen
 
 The same test applies to a response or representation. More details are useful when they preserve an action-changing distinction, justify an inference, or make a needed operation possible. Removing all explanation can leave the receiving actor unable to use the result. Repeated framing can consume attention without adding a needed distinction. The work must determine which contribution each piece makes.
 
+That selection is now supplied for explicit inquiry-and-intervention cases in [choosing the next contribution](choosing-the-next-contribution.md). The operation uses known context, returns the actual first inquiry or intervention, and supplies every conditional continuation. The example runner then performs the chosen record repairs and executes the corrected calculations. It distinguishes supplying a rule, supplying an input, supplying both, and making further diagnosis unnecessary through a common operation.
+
+The sign example reveals an additional capability boundary. The planner selects a three-unit diagnostic route from the original operations. Constructing positive-magnitude recovery makes a one-unit route available for positive source values. The planner can now select it, but its earlier optimization could not construct an operation absent from its input. Selection capability and alternative construction make different contributions even when both are implemented in software.
+
 ## Improving the engineer includes improving correction
 
 A consequential objection can require changing the engineer's proposal rather than the other person's acceptance of it. In the service case, an objection identifying the labor deficit defeats a dispatch-only repair. A procedure that increases agreement while retaining that repair leaves the engineering defect intact. The [examined change method](unoptimized-mind-change-methods.md) makes this distinction explicit through a counterexample.

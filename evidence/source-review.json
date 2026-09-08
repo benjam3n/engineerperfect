@@ -323,5 +323,53 @@
       }
     ],
     "standing": "Source descriptions identify the inspected passages. Counterexamples and replacements are authored deductions using stipulated examples or identified prior results. No measured recipient benefit or field-wide superiority is asserted."
+  },
+  "contribution_choice_review": {
+    "review_date": "2026-09-08",
+    "source": {
+      "title": "Near Optimal Bayesian Active Learning for Decision Making",
+      "authors": [
+        "Shervin Javdani",
+        "Yuxin Chen",
+        "Amin Karbasi",
+        "Andreas Krause",
+        "J. Andrew Bagnell",
+        "Siddhartha Srinivasa"
+      ],
+      "year": 2014,
+      "url": "https://proceedings.mlr.press/v33/javdani14.pdf",
+      "inspected_sections": [
+        "Abstract",
+        "Introduction",
+        "Problem Statement"
+      ],
+      "pdf_pages_one_based": [
+        1,
+        2,
+        3
+      ],
+      "use": "Credit for decision-region inquiry with overlapping adequate-action regions. The paper develops a Bayesian expected-test-cost approach; the local construction uses exact worst-case inquiry plus intervention cost."
+    },
+    "retained_prior_work": [
+      {
+        "repository": "benjam3n/mindchangeresearch",
+        "commit": "eeab4b4b54415d436fc838a4e8546403269dd9b3",
+        "path": "findings/information-and-action.md",
+        "use": "Existing common-action result."
+      },
+      {
+        "repository": "benjam3n/mindchangeresearch",
+        "commit": "eeab4b4b54415d436fc838a4e8546403269dd9b3",
+        "path": "mind-change/subject-systems.md",
+        "use": "C1 derives the choice and counterexamples; C2 supplies executable selection and repairs; C4 changes the affected information claim and current instructions."
+      },
+      {
+        "repository": "benjam3n/subjectsystems",
+        "commit": "55364748b120126cb9e8126cc685838f3c8409c3",
+        "path": "systems/design-alternative-construction.md",
+        "use": "Vary contribution, inquiry order, admitted cases, and available operations; construct and execute positive-magnitude recovery with its scope counterexample."
+      }
+    ],
+    "local_contribution": "Completed finite optimization, feasibility obstruction, independently checked implementation, executed toy repairs, and integrated corrections. No novelty claim for decision-directed inquiry or dynamic programming."
   }
 }

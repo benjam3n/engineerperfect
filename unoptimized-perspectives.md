@@ -53,6 +53,8 @@ Here that operation is completed: construct the safe action set at each admitted
 
 The same test applies to our own phrases. Perspective optimization, beneficial change, and perfection identify work. Their names cannot establish that a worthwhile perspective has been constructed or that a recipient has improved.
 
+The further construction in [choosing the next contribution](choosing-the-next-contribution.md) also corrects our own use of the common-action result. Enough information to permit an adequate intervention need not be enough to select the least costly route. Conversely, accumulating more facts can cost more without changing the adequate intervention. The example implements the choice and preserves both results instead of turning one useful condition into a universal stopping rule.
+
 ## A named duality does not establish a trade-off
 
 The principles page describes power and generality as a trade-off and discusses balancing dual characteristics. Its qualification about applicability prevents treating every such statement as a universal law. Even so, neither the names of two desirable properties nor examples of conflict derive an unavoidable conflict in a new undertaking.

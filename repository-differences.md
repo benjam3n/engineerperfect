@@ -4,6 +4,8 @@ The added contribution is a developed body of engineering constructions connecti
 
 [Unoptimized perspectives](unoptimized-perspectives.md) and [unoptimized mind-change methods](unoptimized-mind-change-methods.md) add source-specific criticism and completed consequences within this same work. The examined professional boundaries, selection placeholders, assumed trade-offs, and adoption criteria are used to correct current arguments and instructions. A separate systems-engineering department would create another center of organization without supplying that integration.
 
+[Choosing the next contribution](choosing-the-next-contribution.md) develops the missing selection among inquiry and intervention, with conditional continuations, exact costs, obstruction witnesses, and executed repairs. It applies existing common-action and decision-directed inquiry ideas, credits the relevant predecessor and external research, and constructs cases in which more information, immediate-progress selection, or an incomplete operation inventory produces an inferior route. The added capability is the supplied selection and its use, not ownership of these established research questions.
+
 The comparison used complete untruncated file trees and selected source documents from six populated repositories. The [source record](evidence/source-review.json) pins commits and retrieved files. It supports a focused comparison of inspected work, not an exhaustive claim that no similar idea occurs elsewhere in thousands of files.
 
 | Repository and inspected basis | Existing contribution retained | Work developed in engineerperfect |

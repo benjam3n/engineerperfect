@@ -8,6 +8,8 @@ That change can be an added operation, a removed interference, a new sequence, a
 
 This is one way a perspective change becomes consequential: a presumed constant becomes something the undertaking can alter. Merely redescribing the same excluded alternatives leaves the limit unchanged. The construction must expose a different available intervention or establish the exact dependency that would make it available.
 
+The [sign construction](examples/correcting-composed-signs.md) makes this difference executable. With only component inspections, keeping or reversing the delivered sign, and a reset available, the best route costs 3. Since the admitted original signal is positive and the transformations preserve magnitude, taking the delivered magnitude restores it directly. Implementing and admitting that operation yields cost 1. The original optimum did not change through better search; its operation set changed through a derived construction. For a negative original signal, that same operation fails, and the counterexample is retained.
+
 ## An apparent trade-off can identify a restricted set of alternatives
 
 The fit undertaking requires clearance to be neither too small nor too large. Under the original production variation, moving nominal diameter to improve one extreme worsens the other, and no nominal choice satisfies both. A compromise within that interval cannot fulfill the demand.

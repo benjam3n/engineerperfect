@@ -1,0 +1,553 @@
+{
+  "calculation": {
+    "already_known_missing_rule": {
+      "branches": [],
+      "cost": 1,
+      "kind": "intervene",
+      "name": "install_rule",
+      "remaining": [
+        "rule-a",
+        "rule-b",
+        "rule-c",
+        "rule-d"
+      ]
+    },
+    "cheap_common_rebuild": {
+      "branches": [],
+      "cost": 1,
+      "kind": "intervene",
+      "name": "rebuild",
+      "remaining": [
+        "input-a",
+        "input-b",
+        "input-c",
+        "input-d",
+        "rule-a",
+        "rule-b",
+        "rule-c",
+        "rule-d"
+      ]
+    },
+    "complete_case_identification_and_repair_cost": 3,
+    "cost_after_forcing_first_inquiry": {
+      "identify_everything": 4,
+      "inspect_layout": 3,
+      "inspect_missing_part": 2
+    },
+    "executed_repairs": {
+      "input-a": {
+        "cost": 2,
+        "events": [
+          {
+            "answer": "input",
+            "inquiry": "inspect_missing_part"
+          }
+        ],
+        "intervention": "load_input",
+        "result": "3/50"
+      },
+      "input-b": {
+        "cost": 2,
+        "events": [
+          {
+            "answer": "input",
+            "inquiry": "inspect_missing_part"
+          }
+        ],
+        "intervention": "load_input",
+        "result": "3/50"
+      },
+      "input-c": {
+        "cost": 2,
+        "events": [
+          {
+            "answer": "input",
+            "inquiry": "inspect_missing_part"
+          }
+        ],
+        "intervention": "load_input",
+        "result": "3/50"
+      },
+      "input-d": {
+        "cost": 2,
+        "events": [
+          {
+            "answer": "input",
+            "inquiry": "inspect_missing_part"
+          }
+        ],
+        "intervention": "load_input",
+        "result": "3/50"
+      },
+      "rule-a": {
+        "cost": 2,
+        "events": [
+          {
+            "answer": "rule",
+            "inquiry": "inspect_missing_part"
+          }
+        ],
+        "intervention": "install_rule",
+        "result": "3/50"
+      },
+      "rule-b": {
+        "cost": 2,
+        "events": [
+          {
+            "answer": "rule",
+            "inquiry": "inspect_missing_part"
+          }
+        ],
+        "intervention": "install_rule",
+        "result": "3/50"
+      },
+      "rule-c": {
+        "cost": 2,
+        "events": [
+          {
+            "answer": "rule",
+            "inquiry": "inspect_missing_part"
+          }
+        ],
+        "intervention": "install_rule",
+        "result": "3/50"
+      },
+      "rule-d": {
+        "cost": 2,
+        "events": [
+          {
+            "answer": "rule",
+            "inquiry": "inspect_missing_part"
+          }
+        ],
+        "intervention": "install_rule",
+        "result": "3/50"
+      }
+    },
+    "expanded_case_model": {
+      "executed_repairs": {
+        "both-a": {
+          "cost": 3,
+          "events": [
+            {
+              "answer": "both",
+              "inquiry": "inspect_missing_part"
+            }
+          ],
+          "intervention": "supply_both",
+          "result": "3/50"
+        },
+        "input-a": {
+          "cost": 2,
+          "events": [
+            {
+              "answer": "input",
+              "inquiry": "inspect_missing_part"
+            }
+          ],
+          "intervention": "load_input",
+          "result": "3/50"
+        },
+        "input-b": {
+          "cost": 2,
+          "events": [
+            {
+              "answer": "input",
+              "inquiry": "inspect_missing_part"
+            }
+          ],
+          "intervention": "load_input",
+          "result": "3/50"
+        },
+        "input-c": {
+          "cost": 2,
+          "events": [
+            {
+              "answer": "input",
+              "inquiry": "inspect_missing_part"
+            }
+          ],
+          "intervention": "load_input",
+          "result": "3/50"
+        },
+        "input-d": {
+          "cost": 2,
+          "events": [
+            {
+              "answer": "input",
+              "inquiry": "inspect_missing_part"
+            }
+          ],
+          "intervention": "load_input",
+          "result": "3/50"
+        },
+        "rule-a": {
+          "cost": 2,
+          "events": [
+            {
+              "answer": "rule",
+              "inquiry": "inspect_missing_part"
+            }
+          ],
+          "intervention": "install_rule",
+          "result": "3/50"
+        },
+        "rule-b": {
+          "cost": 2,
+          "events": [
+            {
+              "answer": "rule",
+              "inquiry": "inspect_missing_part"
+            }
+          ],
+          "intervention": "install_rule",
+          "result": "3/50"
+        },
+        "rule-c": {
+          "cost": 2,
+          "events": [
+            {
+              "answer": "rule",
+              "inquiry": "inspect_missing_part"
+            }
+          ],
+          "intervention": "install_rule",
+          "result": "3/50"
+        },
+        "rule-d": {
+          "cost": 2,
+          "events": [
+            {
+              "answer": "rule",
+              "inquiry": "inspect_missing_part"
+            }
+          ],
+          "intervention": "install_rule",
+          "result": "3/50"
+        }
+      },
+      "new_answer": "both",
+      "original_plan_rejected_answer": true,
+      "plan": {
+        "branches": [
+          [
+            "both",
+            {
+              "branches": [],
+              "cost": 2,
+              "kind": "intervene",
+              "name": "supply_both",
+              "remaining": [
+                "both-a"
+              ]
+            }
+          ],
+          [
+            "input",
+            {
+              "branches": [],
+              "cost": 1,
+              "kind": "intervene",
+              "name": "load_input",
+              "remaining": [
+                "input-a",
+                "input-b",
+                "input-c",
+                "input-d"
+              ]
+            }
+          ],
+          [
+            "rule",
+            {
+              "branches": [],
+              "cost": 1,
+              "kind": "intervene",
+              "name": "install_rule",
+              "remaining": [
+                "rule-a",
+                "rule-b",
+                "rule-c",
+                "rule-d"
+              ]
+            }
+          ]
+        ],
+        "cost": 3,
+        "kind": "inquire",
+        "name": "inspect_missing_part",
+        "remaining": [
+          "both-a",
+          "input-a",
+          "input-b",
+          "input-c",
+          "input-d",
+          "rule-a",
+          "rule-b",
+          "rule-c",
+          "rule-d"
+        ]
+      }
+    },
+    "plan": {
+      "branches": [
+        [
+          "input",
+          {
+            "branches": [],
+            "cost": 1,
+            "kind": "intervene",
+            "name": "load_input",
+            "remaining": [
+              "input-a",
+              "input-b",
+              "input-c",
+              "input-d"
+            ]
+          }
+        ],
+        [
+          "rule",
+          {
+            "branches": [],
+            "cost": 1,
+            "kind": "intervene",
+            "name": "install_rule",
+            "remaining": [
+              "rule-a",
+              "rule-b",
+              "rule-c",
+              "rule-d"
+            ]
+          }
+        ]
+      ],
+      "cost": 2,
+      "kind": "inquire",
+      "name": "inspect_missing_part",
+      "remaining": [
+        "input-a",
+        "input-b",
+        "input-c",
+        "input-d",
+        "rule-a",
+        "rule-b",
+        "rule-c",
+        "rule-d"
+      ]
+    }
+  },
+  "indistinguishable_incompatible_cases": {
+    "obstruction": [
+      [
+        "needs_input",
+        "needs_rule"
+      ]
+    ],
+    "plan": null
+  },
+  "sign_composition": {
+    "constructed_operation": {
+      "executed_repairs": {
+        "00": {
+          "cost": 1,
+          "events": [],
+          "intervention": "positive_magnitude",
+          "result": "7"
+        },
+        "01": {
+          "cost": 1,
+          "events": [],
+          "intervention": "positive_magnitude",
+          "result": "7"
+        },
+        "10": {
+          "cost": 1,
+          "events": [],
+          "intervention": "positive_magnitude",
+          "result": "7"
+        },
+        "11": {
+          "cost": 1,
+          "events": [],
+          "intervention": "positive_magnitude",
+          "result": "7"
+        }
+      },
+      "plan": {
+        "branches": [],
+        "cost": 1,
+        "kind": "intervene",
+        "name": "positive_magnitude",
+        "remaining": [
+          "00",
+          "01",
+          "10",
+          "11"
+        ]
+      },
+      "scope_failure": {
+        "produced": 7,
+        "required": -7
+      }
+    },
+    "direct_common_intervention_cost": 4,
+    "executed_repairs": {
+      "00": {
+        "cost": 3,
+        "events": [
+          {
+            "answer": "0",
+            "inquiry": "inspect_consumer"
+          },
+          {
+            "answer": "0",
+            "inquiry": "inspect_producer"
+          }
+        ],
+        "intervention": "keep_sign",
+        "result": "7"
+      },
+      "01": {
+        "cost": 3,
+        "events": [
+          {
+            "answer": "1",
+            "inquiry": "inspect_consumer"
+          },
+          {
+            "answer": "0",
+            "inquiry": "inspect_producer"
+          }
+        ],
+        "intervention": "reverse_sign",
+        "result": "7"
+      },
+      "10": {
+        "cost": 3,
+        "events": [
+          {
+            "answer": "0",
+            "inquiry": "inspect_consumer"
+          },
+          {
+            "answer": "1",
+            "inquiry": "inspect_producer"
+          }
+        ],
+        "intervention": "reverse_sign",
+        "result": "7"
+      },
+      "11": {
+        "cost": 3,
+        "events": [
+          {
+            "answer": "1",
+            "inquiry": "inspect_consumer"
+          },
+          {
+            "answer": "1",
+            "inquiry": "inspect_producer"
+          }
+        ],
+        "intervention": "keep_sign",
+        "result": "7"
+      }
+    },
+    "one_inquiry_then_common_intervention_cost": 5,
+    "plan": {
+      "branches": [
+        [
+          "0",
+          {
+            "branches": [
+              [
+                "0",
+                {
+                  "branches": [],
+                  "cost": 1,
+                  "kind": "intervene",
+                  "name": "keep_sign",
+                  "remaining": [
+                    "00"
+                  ]
+                }
+              ],
+              [
+                "1",
+                {
+                  "branches": [],
+                  "cost": 1,
+                  "kind": "intervene",
+                  "name": "reverse_sign",
+                  "remaining": [
+                    "10"
+                  ]
+                }
+              ]
+            ],
+            "cost": 2,
+            "kind": "inquire",
+            "name": "inspect_producer",
+            "remaining": [
+              "00",
+              "10"
+            ]
+          }
+        ],
+        [
+          "1",
+          {
+            "branches": [
+              [
+                "0",
+                {
+                  "branches": [],
+                  "cost": 1,
+                  "kind": "intervene",
+                  "name": "reverse_sign",
+                  "remaining": [
+                    "01"
+                  ]
+                }
+              ],
+              [
+                "1",
+                {
+                  "branches": [],
+                  "cost": 1,
+                  "kind": "intervene",
+                  "name": "keep_sign",
+                  "remaining": [
+                    "11"
+                  ]
+                }
+              ]
+            ],
+            "cost": 2,
+            "kind": "inquire",
+            "name": "inspect_producer",
+            "remaining": [
+              "01",
+              "11"
+            ]
+          }
+        ]
+      ],
+      "cost": 3,
+      "kind": "inquire",
+      "name": "inspect_consumer",
+      "remaining": [
+        "00",
+        "01",
+        "10",
+        "11"
+      ]
+    },
+    "repairing_only_producer": {
+      "after": -7,
+      "before": 7
+    }
+  },
+  "standing": "Exact finite constructions and executed toy repairs. Costs are stipulated work units, not measured human effort or time."
+}
