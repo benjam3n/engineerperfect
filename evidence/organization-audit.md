@@ -1,4 +1,6 @@
-# Where the existing material belongs
+# Historical classification of the earlier information tree
+
+This records the preceding revision. The [completion correction](completion-correction.md) replaces its information-tree organizing rule with the supplied engineering method.
 
 The former organization treated twelve documents as terminal subjects and left their internal distinctions implicit. It also mixed project interpretations with the work itself. The correction classifies contents by their role and preserves original documents as sources. Not fitting one tree is evidence to inspect the representation; it is not enough to conclude that the material is unnecessary.
 

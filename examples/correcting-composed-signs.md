@@ -40,3 +40,11 @@ Taking the positive magnitude therefore restores the original value without lear
 The earlier diagnostic optimum was 3; the enlarged operation set permits 1. The added operation changes which distinctions the undertaking needs. The original solver could not discover this possibility because its input supplied no such intervention. Its proof of optimality did not establish the completeness of that input.
 
 The condition x > 0 matters. If the required original value is −7 and the delivery is already −7, taking positive magnitude produces +7 and destroys a correct result. That counterexample is executed too. A more broadly admitted signal requires a different intervention or the information needed to preserve its legitimate sign.
+
+## A known negative original has a supplied restoration too
+
+For known original sign σ and received y in {x, −x}, signed magnitude gives σ|y| = x. Positive magnitude alone is inadequate for a negative original; composing it with sign reversal supplies negative magnitude, which restores both +7 and −7 deliveries to a required −7.
+
+Under the existing additive costs, the negative composition costs 1 + 1 = 2. The positive case remains 1, and the original diagnostic route remains 3. No new fused one-unit cost is assumed. The [completed constructor](../tools/engineer.py) admits the composed operation and executes all four reversal pairs for both original signs. [Actual outputs](../evidence/engineering-results.json).
+
+If the original sign is unavailable, +7 and −7 originals can both produce a received +7. A method given only that received value cannot restore both. The counterexample therefore identifies a precise missing input; it does not defeat the supplied method when the original sign is known.

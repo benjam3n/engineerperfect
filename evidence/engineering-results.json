@@ -1,0 +1,160 @@
+{
+  "signed_magnitude": {
+    "operation": "signed_magnitude",
+    "cost": {
+      "positive": 1,
+      "negative": 2
+    },
+    "executions": [
+      {
+        "original": "7",
+        "case": "00",
+        "received": "7",
+        "restored": "7",
+        "cost": 1
+      },
+      {
+        "original": "7",
+        "case": "01",
+        "received": "-7",
+        "restored": "7",
+        "cost": 1
+      },
+      {
+        "original": "7",
+        "case": "10",
+        "received": "-7",
+        "restored": "7",
+        "cost": 1
+      },
+      {
+        "original": "7",
+        "case": "11",
+        "received": "7",
+        "restored": "7",
+        "cost": 1
+      },
+      {
+        "original": "-7",
+        "case": "00",
+        "received": "-7",
+        "restored": "-7",
+        "cost": 2
+      },
+      {
+        "original": "-7",
+        "case": "01",
+        "received": "7",
+        "restored": "-7",
+        "cost": 2
+      },
+      {
+        "original": "-7",
+        "case": "10",
+        "received": "7",
+        "restored": "-7",
+        "cost": 2
+      },
+      {
+        "original": "-7",
+        "case": "11",
+        "received": "-7",
+        "restored": "-7",
+        "cost": 2
+      }
+    ]
+  },
+  "calculation_repair": {
+    "cost": 2,
+    "executions": {
+      "rule-a": {
+        "events": [
+          {
+            "inquiry": "inspect_missing_part",
+            "answer": "rule"
+          }
+        ],
+        "intervention": "install_rule",
+        "cost": 2,
+        "result": "3/50"
+      },
+      "rule-b": {
+        "events": [
+          {
+            "inquiry": "inspect_missing_part",
+            "answer": "rule"
+          }
+        ],
+        "intervention": "install_rule",
+        "cost": 2,
+        "result": "3/50"
+      },
+      "rule-c": {
+        "events": [
+          {
+            "inquiry": "inspect_missing_part",
+            "answer": "rule"
+          }
+        ],
+        "intervention": "install_rule",
+        "cost": 2,
+        "result": "3/50"
+      },
+      "rule-d": {
+        "events": [
+          {
+            "inquiry": "inspect_missing_part",
+            "answer": "rule"
+          }
+        ],
+        "intervention": "install_rule",
+        "cost": 2,
+        "result": "3/50"
+      },
+      "input-a": {
+        "events": [
+          {
+            "inquiry": "inspect_missing_part",
+            "answer": "input"
+          }
+        ],
+        "intervention": "load_input",
+        "cost": 2,
+        "result": "3/50"
+      },
+      "input-b": {
+        "events": [
+          {
+            "inquiry": "inspect_missing_part",
+            "answer": "input"
+          }
+        ],
+        "intervention": "load_input",
+        "cost": 2,
+        "result": "3/50"
+      },
+      "input-c": {
+        "events": [
+          {
+            "inquiry": "inspect_missing_part",
+            "answer": "input"
+          }
+        ],
+        "intervention": "load_input",
+        "cost": 2,
+        "result": "3/50"
+      },
+      "input-d": {
+        "events": [
+          {
+            "inquiry": "inspect_missing_part",
+            "answer": "input"
+          }
+        ],
+        "intervention": "load_input",
+        "cost": 2,
+        "result": "3/50"
+      }
+    }
+  }
+}

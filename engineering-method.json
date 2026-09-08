@@ -1,0 +1,230 @@
+{
+  "name": "A method of engineering perfect",
+  "methods": [
+    {
+      "id": "signal-restoration",
+      "name": "Signal restoration",
+      "consequence": "A known original sign and the received magnitude restore either original without diagnosis: cost 1 for a positive original, 2 for a negative original, against diagnosis at 3.",
+      "expression": "original sign × |received value| = original value",
+      "source": "engineering-perfect.md#complete-operation",
+      "nodes": [
+        {
+          "text": "For original x ≠ 0, received y ∈ {x, −x}, and known original sign σ, the supplied restoration is σ|y| = x.",
+          "children": [
+            {
+              "text": "For x > 0, σ = +1 and |y| = x. For x < 0, σ = −1 and −|y| = x."
+            },
+            {
+              "text": "All four pairs of intervening reversals are repaired for either original sign. Positive magnitude costs 1. Composing it with the existing one-unit sign reversal costs 2 for a negative original; diagnosis costs 3."
+            }
+          ]
+        },
+        {
+          "text": "The earlier negative-source counterexample defeats positive magnitude, not magnitude-based restoration. Constructing negative magnitude completes the missing half of the method.",
+          "children": [
+            {
+              "text": "When the original is −7, |−7| = +7 is wrong, but −|−7| = −7 and −|+7| = −7 both restore it."
+            },
+            {
+              "text": "If both +7 and −7 remain possible originals and their original sign is unavailable, the same received +7 can require either restoration. The missing sign cannot be recovered from that received value alone."
+            }
+          ]
+        }
+      ],
+      "operation": {
+        "href": "/operations/",
+        "name": "Signed-magnitude restoration"
+      },
+      "uses": [
+        {
+          "id": "variation",
+          "name": "Guaranteed clearance"
+        },
+        {
+          "id": "symbolic-bounds",
+          "name": "Robust design bound"
+        }
+      ]
+    },
+    {
+      "id": "calculation-repair",
+      "name": "Calculation repair",
+      "consequence": "All eight calculation repairs return 0.06. Missing-part observation plus its matching repair costs 2; layout-first costs 3 for the same result.",
+      "expression": "missing rule → supplied rule; missing input → supplied input; result = 0.06",
+      "source": "engineering-perfect.md#complete-conditional-plan",
+      "nodes": [
+        {
+          "text": "Each record requires 10.06 − 10.00. The supplied plan observes whether its rule or input is missing and installs that component. Every executed record then returns 3/50.",
+          "children": [
+            {
+              "text": "The observation costs 1 and either repair costs 1. Four layouts change neither repair nor result, so the worst total cost is 2 across all eight records."
+            },
+            {
+              "text": "When the omission is already known, the matching repair costs 1. Repeating the missing-part observation adds work without changing the completed result."
+            }
+          ]
+        },
+        {
+          "text": "The constructor compares complete repairs with every distinguishing inquiry followed by its complete answer branches. Its selected cost is the minimum worst-case total among the supplied alternatives.",
+          "children": [
+            {
+              "text": "An inquiry's total is its own cost plus its most costly completed answer branch. Every branch ends in an actual repair adequate for all remaining cases."
+            },
+            {
+              "text": "If an indistinguishable group has no common successful repair, the constructor returns that group as an obstruction. An empty branch is never counted as successful completion."
+            }
+          ]
+        }
+      ],
+      "operation": {
+        "href": "/contribution/",
+        "name": "Executed calculation repairs"
+      },
+      "uses": [
+        {
+          "id": "intermediate-inquiry",
+          "name": "Two-observation repair"
+        },
+        {
+          "id": "ends-and-means",
+          "name": "Diagnosis-free restoration"
+        }
+      ]
+    },
+    {
+      "id": "tooling-construction",
+      "name": "Tooling construction",
+      "consequence": "Including the tool’s own prerequisite moves its production advantage from two items to four. The completed route includes bootstrap, production, and maintenance.",
+      "expression": "bootstrap + tooling + production + maintenance = 9 + n + 2⌊(n−1)/3⌋",
+      "source": "engineering-perfect.md#construction-of-the-means",
+      "nodes": [
+        {
+          "text": "Manual production costs 4n. The complete tooling route costs 9 + n + 2⌊(n−1)/3⌋, including the four-unit bootstrap part that the tool cannot produce before it exists.",
+          "children": [
+            {
+              "text": "At n = 1, the costs are 4 and 10. At n = 2, they are 8 and 11. At n = 3, both cost 12. At n = 4, they are 16 and 15."
+            },
+            {
+              "text": "The complete tooling route remains cheaper for every integer n ≥ 4. The first-item comparison therefore selects a different method from the complete four-item undertaking."
+            }
+          ]
+        },
+        {
+          "text": "A constructor can depend on another constructed capability. Completing the upstream dependency changes what the downstream method can actually produce.",
+          "children": [
+            {
+              "text": "A repeated expert correction is a consumed contribution when every usable result needs it. With B available units and e units consumed per result, unreplenished support permits at most ⌊B/e⌋ results."
+            },
+            {
+              "text": "The website's earlier producer required two levels of labels before its knowledge. Removing those compulsory fields changes every generated method page; editing one finished page would have left the producer able to recreate the defect."
+            }
+          ]
+        }
+      ],
+      "uses": [
+        {
+          "id": "production-bootstrap",
+          "name": "Complete tooling route"
+        },
+        {
+          "id": "correction-propagation",
+          "name": "Correction of the producer"
+        },
+        {
+          "id": "learning-and-support",
+          "name": "Supported and independent capability"
+        }
+      ]
+    },
+    {
+      "id": "continuous-operation",
+      "name": "Continuous operation",
+      "consequence": "With withdrawals of 0–2, the low/high policy preserves levels 1–9 indefinitely. The exact-level policy reaches 4–6 within three periods and preserves it.",
+      "expression": "level ≤ 4: +2; level ≥ 5: 0. Narrow target: min(3, 6−level).",
+      "source": "engineering-perfect.md#continuing-operation",
+      "nodes": [
+        {
+          "text": "For x ≤ 4, u = 2 gives a next level between 1 and 6. For x ≥ 5, u = 0 gives a next level between 3 and 9. Both branches preserve 1–9 after every admitted withdrawal.",
+          "children": [
+            {
+              "text": "The two branches use the low/high observation only. Exact measurement is unnecessary for this guarantee."
+            },
+            {
+              "text": "For the narrower target, u(x) = min(3, 6−x). At levels 4, 5, and 6 it supplies +2, +1, and 0; at high levels the model admits removal. Every start in 1–9 reaches 4–6 within three periods."
+            }
+          ]
+        },
+        {
+          "text": "Continued operation includes the conditions that keep its actions available. With two stations that each serve twice before repair, a fully occupied lone worker exhausts the initial four-service capacity.",
+          "children": [
+            {
+              "text": "A second worker supplies concurrent repair. Serving at one usable station while repairing the other preserves a usable station for the next period."
+            },
+            {
+              "text": "Every initial wear pair except both fully worn supports the continuous policy. The labor and starting-state conditions remain part of this construction."
+            }
+          ]
+        }
+      ],
+      "operation": {
+        "href": "/information/",
+        "name": "Supplied water controllers"
+      },
+      "uses": [
+        {
+          "id": "service-during-repair",
+          "name": "Concurrent service and repair"
+        },
+        {
+          "id": "reserve-and-dependence",
+          "name": "Required repair reserve"
+        }
+      ]
+    },
+    {
+      "id": "coverage-correction",
+      "name": "Coverage correction",
+      "consequence": "Completing 10 accepted requests still leaves 90 of 100 eligible requests unserved. Accepted-request completion is 100%; eligible-request coverage is 10%.",
+      "expression": "served ÷ accepted = 10/10; served ÷ eligible = 10/100",
+      "source": "engineering-perfect.md#revision-of-what-the-result-is",
+      "nodes": [
+        {
+          "text": "Accepted-request completion and eligible-request coverage answer different questions. Their different denominators account exactly for the apparently conflicting judgments.",
+          "children": [
+            {
+              "text": "Under the concern that eligible requests receive service, the acceptance-based score excludes the ninety unserved requests. Perfecting that score alone preserves their exclusion."
+            },
+            {
+              "text": "The coverage judgment changes without making the completion count false. It exposes the missing service; it does not itself supply that service."
+            }
+          ]
+        },
+        {
+          "text": "A method can be exactly right about a question that no longer deserves to govern the undertaking. Purpose, beneficiaries, values, and the admitted alternatives can change what counts as an adequate result.",
+          "children": [
+            {
+              "text": "Publishing dissent's substance while withholding unnecessary identity satisfies the stipulated review and privacy obligations together. The conflict came from bundling two independently changeable fields."
+            },
+            {
+              "text": "A route that completes a task in two effort units and supplies valued understanding can be preferable to a one-unit route without that understanding. Task time alone does not rank the added consequence."
+            }
+          ]
+        }
+      ],
+      "uses": [
+        {
+          "id": "unbundling-values",
+          "name": "Separated content and identity"
+        },
+        {
+          "id": "benefit-and-effort",
+          "name": "Completion and valued understanding"
+        },
+        {
+          "id": "changing-goals",
+          "name": "Revision of the governing purpose"
+        }
+      ]
+    }
+  ]
+}

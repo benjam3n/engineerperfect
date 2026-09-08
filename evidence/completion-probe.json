@@ -1,0 +1,8 @@
+{
+  "source_commit": "bfe0554ee4e57b1198ffc8f6cb1cec95b0a0f755",
+  "substitution": "All substantive text nodes replaced with an instruction to determine the operation and derive its consequence.",
+  "replaced_text_nodes": 194,
+  "checker_exit": 0,
+  "checker_output": "47 canonical results reachable; 11 shared across subjects; alternate views reuse records; internal distinctions and source roles pass.\n",
+  "scope": "The old structural checker admits this exact deferred-reasoning substitution. No semantic acceptance of the replacement is inferred."
+}
