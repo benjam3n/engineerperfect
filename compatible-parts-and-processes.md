@@ -24,6 +24,8 @@ Consider two one-hour tasks, both required during the same one-hour interval and
 
 This is the organizational form of an engineering interface failure. It is not resolved by clearer descriptions of the two tasks.
 
+The disagreement between the two task descriptions should therefore remain visible until the demand or capacity changes. Making their language consistent cannot make their simultaneous claims jointly feasible. Likewise, competing explanations can be retained for comparison without asserting them together, and different people's valuations can disagree without either person's account of the physical events being false. Integration must preserve the kind of difference it is handling.
+
 ## Redundancy inherits common dependencies
 
 Let success through route A require a ∧ c and success through B require b ∧ c. Combined success is (a ∧ c) ∨ (b ∧ c) = c ∧ (a ∨ b). The extra route tolerates failure of a or b individually. It does nothing when c fails.
@@ -31,6 +33,8 @@ Let success through route A require a ∧ c and success through B require b ∧ 
 Two pumps on the same unavailable power supply, two backups behind the same inaccessible account, or two workers blocked by the same missing authorization share this logical shape only when the stated dependency actually holds. Names and physical separation do not determine dependency independence.
 
 No failure probabilities are needed for the Boolean conclusion. A probability estimate would require the appropriate joint distribution; multiplying advertised component reliabilities without that distribution adds an unsupported premise.
+
+The same dependency matters in philosophical justification. Suppose one argument derives conclusion q from p together with a, and another derives q from p together with b. If both routes require p, listing both does not create a justification independent of p. Defeating p defeats these routes without proving q false; another route could establish q. The useful change is to inspect or replace the shared premise instead of counting the two arguments as independent protection. This transfer follows the stated logical dependencies rather than a resemblance between arguments and machines.
 
 ## A repair must reestablish the receiving conditions
 

@@ -246,5 +246,82 @@
       "url": "https://underactuated.mit.edu/robust.html",
       "use": "Existing dynamics with disturbances and worst-case control framing"
     }
-  ]
+  ],
+  "perspective_and_mind_change_review": {
+    "review_date": "2026-09-08",
+    "scope": "Five public sources inspected for specific passages and relevant qualifications. The critique does not claim an exhaustive review of INCOSE, SEBoK, their references, or systems engineering practice.",
+    "analyses": [
+      "unoptimized-perspectives.md",
+      "unoptimized-mind-change-methods.md"
+    ],
+    "sources": [
+      {
+        "title": "What is Systems Thinking?",
+        "publisher": "SEBoK",
+        "url": "https://sebokwiki.org/w/index.php?title=What_is_Systems_Thinking%3F&oldid=78451",
+        "version_id": 78451,
+        "sections": [
+          "Identifying Systems of Interest",
+          "Systems Thinking and the Systems Approach"
+        ],
+        "use": "Observer-dependent boundaries; broad social and philosophical scope; whole/partial understanding; adequacy left partly to judgment."
+      },
+      {
+        "title": "Principles of Systems Thinking",
+        "publisher": "SEBoK",
+        "url": "https://sebokwiki.org/w/index.php?title=Principles_of_Systems_Thinking&oldid=78452",
+        "version_id": 78452,
+        "sections": [
+          "Separation of Concerns",
+          "Summary of Systems Principles"
+        ],
+        "use": "Selection instructions, consistency, dualities, and explicit qualification of principle applicability."
+      },
+      {
+        "title": "Systems Engineering Overview",
+        "publisher": "SEBoK",
+        "url": "https://sebokwiki.org/w/index.php?title=Systems_Engineering_Overview&oldid=77971",
+        "version_id": 77971,
+        "sections": [
+          "Scope of Systems Engineering within the Engineered Systems Domain"
+        ],
+        "use": "Professional scope and the acknowledged dependency on execution outside that scope."
+      },
+      {
+        "title": "Guidance for Engineers",
+        "publisher": "SEBoK",
+        "url": "https://sebokwiki.org/w/index.php?title=Guidance_for_Engineers&oldid=78239",
+        "version_id": 78239,
+        "sections": [
+          "Use of Topics",
+          "Vignette: Software Engineer"
+        ],
+        "use": "Professional reading organization and a concrete intended audience; not a universal limit on method applicability."
+      },
+      {
+        "title": "Digital Transformation using MBSE: Notes from the field",
+        "author": "William Donaldson",
+        "host": "INCOSE",
+        "presentation_date": "2020-07-15",
+        "source_type": "Invited webinar presentation; not treated as an institutional standard",
+        "url": "https://www.incose.org/wp-content/uploads/2026/01/webinar_140_donaldson_digital_transformation_using_mbse_notes_from_the_field.pdf",
+        "pdf_pages_one_based": [
+          1,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55
+        ],
+        "sections": [
+          "Change",
+          "Management Agreement Model",
+          "Six Steps to Change"
+        ],
+        "use": "Explicit treatment of mind change and beneficial change; adoption and compliance as proposed destinations; attribution of the six-step sequence preserved."
+      }
+    ],
+    "standing": "Source descriptions identify the inspected passages. Counterexamples and replacements are authored deductions using stipulated examples or identified prior results. No measured recipient benefit or field-wide superiority is asserted."
+  }
 }

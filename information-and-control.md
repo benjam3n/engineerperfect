@@ -2,6 +2,8 @@
 
 The information an engineer needs depends on the interventions available and the condition to be preserved. Exact description of every state is unnecessary when several states admit the same adequate intervention. Conversely, a highly detailed record can omit the one distinction that changes the required action.
 
+This changes what a useful contribution should supply. In the water undertaking, asking for a complete state description adds a prerequisite that the wide-band requirement does not need. The completed selection below identifies the sufficient distinction. In an inquiry whose question or criterion is still forming, discovering that question can be the missing contribution instead; the calculation does not prescribe how every inquiry must begin.
+
 For a candidate maintained set K, let U_K(x) be the actions whose every possible successor remains in K. Suppose the controller receives only observation z = h(x) and chooses its action from z, without additional memory. One policy preserves all of K exactly when
 
 \[

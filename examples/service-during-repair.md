@@ -1,5 +1,7 @@
 # Maintaining service while equipment is repaired
 
+Better dispatch cannot sustain this service with one worker. Concurrent repair makes a sustainable operation possible from every initial wear state except the state in which both stations already need repair. This changes the recommendation from selecting a cleverer schedule to supplying the missing simultaneous contribution; persuading everybody to accept the original schedule would leave its limit unchanged.
+
 A constructed service has two stations, A and B. Each station can complete two jobs after a repair. Its wear state is 0, 1, or 2; state 2 cannot serve another job until repaired. Exactly one job must be completed in every period. Serving one job takes one worker for the whole period and increases the active station's wear by one. Repair takes another worker for the whole period and resets the idle station's wear to 0. A station cannot serve and be repaired in the same period.
 
 No unplanned faults, partial repairs, worker absence, or job buffering are admitted. The model can describe a stipulated service arrangement without asserting measured properties of real equipment or people.

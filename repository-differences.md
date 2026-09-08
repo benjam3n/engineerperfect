@@ -1,6 +1,8 @@
 # What engineerperfect adds to the existing repositories
 
-The missing contribution is a developed body of engineering constructions connecting worthwhile conditions to their actual production, continued operation, repair, and reproduction. Several predecessors already name or derive parts of this problem. Claiming they address only thoughts or beliefs would misread their explicit scope.
+The added contribution is a developed body of engineering constructions connecting worthwhile conditions to their actual production, continued operation, repair, and reproduction. Beneficial efficient mind change governs the selection and organization of those constructions, in continuity with the existing repositories. Several predecessors already name or derive parts of this problem. Claiming they address only thoughts or beliefs would misread their explicit scope.
+
+[Unoptimized perspectives](unoptimized-perspectives.md) and [unoptimized mind-change methods](unoptimized-mind-change-methods.md) add source-specific criticism and completed consequences within this same work. The examined professional boundaries, selection placeholders, assumed trade-offs, and adoption criteria are used to correct current arguments and instructions. A separate systems-engineering department would create another center of organization without supplying that integration.
 
 The comparison used complete untruncated file trees and selected source documents from six populated repositories. The [source record](evidence/source-review.json) pins commits and retrieved files. It supports a focused comparison of inspected work, not an exhaustive claim that no similar idea occurs elsewhere in thousands of files.
 

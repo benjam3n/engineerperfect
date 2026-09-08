@@ -6,6 +6,8 @@ If production of one acceptable unit consumes r units of an unreplenished stock 
 
 This distinction matters for an intellectual method too. A response obtained with an expert repeatedly repairing hidden omissions has consumed an expert contribution. Removing that contribution while preserving the claimed capability requires another mechanism to supply what it supplied. Saving the final response does not save the expert's discriminations, access, and decisions unless those contributions become available in a usable form.
 
+Suppose each usable result requires e > 0 units of that expert's intervention, and only B units are available. Without a substitute or replenishment, the same stock bound permits at most floor(B/e) results. Calling the method general or complete does not remove its repeated support cost. A reusable correction changes this arrangement only when it supplies the missing discrimination or operation where the next result is produced. A stored warning elsewhere can leave the original consumption unchanged.
+
 ## The maintainer is part of the operating arrangement
 
 Let an asset provide k service events before a repair is needed. Suppose each service and each repair uses one unit of the same exclusive labor resource. Over a long run, k services require at least one repair. The resource demand per service is at least 1 + 1/k labor units, ignoring startup credit and any additional overhead.
@@ -15,6 +17,8 @@ For k = 2, the asymptotic throughput of one unit of labor per period is at most 
 In the [two-station example](examples/service-during-repair.md), every period requires a completed service. There is no spare period for repair. One worker must eventually fail despite having two stations. Two concurrent workers make a sustainable alternating operation possible. The missing contribution is repair labor at the right time, not awareness that maintenance matters.
 
 If upkeep is outsourced, it remains a dependency of the system that receives it. Its price, availability, response time, tools, and information may determine whether the guarantee survives. Moving the work across an organizational boundary does not remove it.
+
+This determines the scope of the inquiry from the promised result. A professional may be assigned only the analysis, but a claim that the arrangement can continue must include the repair contribution or remain conditional on it. The [perspective critique](unoptimized-perspectives.md) identifies the source-specific distinction between a profession's remit and the causes on which realization depends.
 
 ## Reserves determine how long repair may take
 

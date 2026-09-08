@@ -15,3 +15,13 @@ These checks support the finite constructions and their implementation. They do 
 The proof of the fixed-point algorithm supplies its finite-model generalization. The enumerated family supplies implementation evidence and counterexamples to specific incorrect alternatives. Neither is a universal judgment of repository quality or a test for every possible placeholder in prose.
 
 The semantic review checked that the central advertised operations have supplied transformations or calculations, that failed designs remain visible, that equations use their stated quantifiers, and that the repository comparison does not turn prior work into claimed novelty. This was an authored review, not an automated certificate of perfection.
+
+## Integrated perspective and mind-change revision
+
+The subsequent 2026-09-08 revision examined four SEBoK pages and one INCOSE-hosted invited presentation. The [source record](source-review.json) preserves page revisions, presentation date, passage locations, and the limits of attribution. The review distinguishes explicit source formulations, acknowledged qualifications, and the further inferences that fail. It does not infer field-wide absence from selected passages or treat an invited presentation as an institutional standard.
+
+The new [perspective analysis](../unoptimized-perspectives.md) and [mind-change analysis](../unoptimized-mind-change-methods.md) use completed counterexamples and identified prior results. The agreement counterexample uses the existing service resource bound. The abstraction analysis preserves the distinction between exact answers and common adequate actions. The alternative-space argument distinguishes conflict within current options from unavoidable conflict. The philosophical dependency example distinguishes defeating two supplied arguments from proving their conclusion false.
+
+The revision changes the working README, purpose, contribution instructions, existing subject arguments, and four example introductions. These are inspectable changes in the current contribution and its retained instructions. Neither their presence nor the source review demonstrates a reader's mind change, faster human performance, durable transfer, or superiority over all existing practice.
+
+The example runner was executed again to check the numerical claims used in the new comparisons. It reproduced the existing computed results without a diff. The solver and its tests were unchanged; the exhaustive verification described above remains the initial implementation evidence. Local Markdown links and JSON syntax were checked, and the patch passed whitespace validation. Cost results are not presented as measurements of elapsed time.

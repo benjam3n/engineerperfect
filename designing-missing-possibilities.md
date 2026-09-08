@@ -6,6 +6,16 @@ Let all paths available from an initial state lie in a reachable set R, and let 
 
 That change can be an added operation, a removed interference, a new sequence, a substituted resource, a different interface, or an environment that supplies part of the work. It need not be a more intelligent controller.
 
+This is one way a perspective change becomes consequential: a presumed constant becomes something the undertaking can alter. Merely redescribing the same excluded alternatives leaves the limit unchanged. The construction must expose a different available intervention or establish the exact dependency that would make it available.
+
+## An apparent trade-off can identify a restricted set of alternatives
+
+The fit undertaking requires clearance to be neither too small nor too large. Under the original production variation, moving nominal diameter to improve one extreme worsens the other, and no nominal choice satisfies both. A compromise within that interval cannot fulfill the demand.
+
+Reducing the combined manufacturing error half-width to at most 0.04 changes the interval itself. With half-widths 0.01 and 0.015, every nominal difference between 0.045 and 0.075 satisfies both limits. This does not prove that tighter production is free or physically available. It determines the exact additional capability and prevents an unsupported conclusion that one clearance requirement must be surrendered.
+
+The general inference is limited but useful. A conflict among current alternatives establishes a conflict within those alternatives. It does not establish that every attainable alternative has that conflict. A new mechanism can improve both properties, introduce a different cost, or fail to be available. The actual alternatives determine which conclusion holds; describing the properties as opposites does not.
+
 ## The water requirement exposes different engineering directions
 
 The initial undertaking is to preserve a useful water level despite unknown withdrawal. Candidate constructions differ in what they change:
@@ -30,6 +40,8 @@ In the [fit example](examples/shaft-and-hole-fit.md), a boundary containing only
 These changes do not merely describe the same option in different words. They admit different causal interventions and impose different costs. The broader boundary is useful when its additional degrees of freedom change the outcome. It is needless expansion when they cannot affect the live judgment.
 
 Similarly, a personal undertaking can be modeled as an isolated intention or as a person with available time, tools, access, surroundings, and other people's contributions. The latter can expose a concrete missing resource. It does not establish that every failure belongs to the environment or that an individual skill cannot be decisive.
+
+For example, suppose an author can complete either of two tasks in the same available hour, and each actually requires that entire exclusive hour. Requiring both by its end exceeds the available time, even if the author understands both perfectly. Moving one deadline to a second available hour makes a sequential route possible. This is an exact consequence of the stipulated timing conditions, not a diagnosis that all personal difficulties are scheduling problems.
 
 ## Removal can supply the missing capability
 

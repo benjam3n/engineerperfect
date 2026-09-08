@@ -1,5 +1,7 @@
 # Keeping water within a useful range
 
+A low/high observation is enough to keep the modeled tank between levels 1 and 9: add 2 at levels at most 4 and add 0 above 4. Keeping the narrower range 4–6 from any of its levels requires different actions at 4, 5, and 6, so a memoryless controller must distinguish those levels. The useful distinction is determined by what the controller must accomplish, not by an ambition to describe every detail.
+
 This is a constructed discrete model of a tank. The values are stipulated for exact reasoning; no physical tank, pump, sensor, or field performance was measured.
 
 At each period, level x is an integer. The actuator adds or removes u units, with u in {−3,−2,−1,0,1,2,3}. An unknown withdrawal d in {0,1,2} then occurs. The next level is x' = x + u − d. The initial acceptable levels are 1 through 9. The actuator is immediately available and accurate; there is no delay, energy limit, leak, saturation behavior, or unmodeled demand in this construction. Negative u represents an available discharge action.

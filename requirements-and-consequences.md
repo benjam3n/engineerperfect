@@ -6,6 +6,18 @@ Consider a service measured by the fraction of accepted jobs completed. A provid
 
 Two changes are therefore required in different places: preserve the actual demand in the judgment, and alter the service arrangement if more of that demand is to be met. Correct reporting is necessary to diagnose the gap but is not the engineering repair that closes it.
 
+The original completion fraction need not be false for its role to be wrong. It answers a narrower question than the concern requires. This is a change in the governing perspective: a true description can lose authority as the measure of the undertaking. Adding more accurate measurements of the same fraction does not restore the missing denominator.
+
+## A desired mind change can be the wrong requirement
+
+Suppose an intervention is scored by the fraction of participants who accept a proposed plan. If the plan needs unavailable repair labor, unanimity does not make it feasible. A participant who discovers the missing labor can reduce agreement while improving the group's basis for action. Optimizing agreement alone can therefore select against the contribution the undertaking needs.
+
+The [service derivation](examples/service-during-repair.md) supplies the missing determination: with one worker continuously serving demand, no repair period remains, and the initial two stations provide only four services. Under those conditions the plan needs a changed resource arrangement. Describing the objection as resistance does not change its conclusion.
+
+Beneficial mind change consequently cannot be identified with a predetermined direction of belief. The warranted change can be in the proposed intervention, its advocate's judgment, its evaluation rule, or the available means. The actual concern determines why the change is beneficial; the proportion of people persuaded does not determine it.
+
+If participants disagree about which outcomes matter, the disagreement requires its own examination. A common factual description need not produce a common valuation. A single score that hides whose burden it ignores repeats the denominator error at a different level.
+
 ## A requirement can describe an outcome or impose a means
 
 Suppose an inquiry requires a comprehensible account of the relation between two events. An additional rule permits only a fixed paragraph form. If the relationship requires a comparison that the form cannot express, the form has become a barrier to the original task. The additional rule must justify its exclusion of the needed expression.

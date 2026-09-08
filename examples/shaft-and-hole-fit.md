@@ -1,5 +1,7 @@
 # Manufacturing a shaft and hole that always fit
 
+Every nominal design fails under the original stipulated variation. The missing possibility comes from changing the process: a combined error half-width of at most 0.04 millimeters permits a robust nominal design. The calculation changes which variable needs engineering and removes further nominal search as a sufficient repair under the original premises.
+
 The stipulated requirement is clearance between 0.02 and 0.10 millimeters for every admitted shaft-hole combination. Shaft diameter is D + e_D with e_D in [−0.04,0.04]. Hole diameter is H + e_H with e_H in [−0.05,0.05]. All combinations of those errors are admitted. These are invented design values, not a manufacturing standard or measured process capability.
 
 Let Δ = H − D. Actual clearance is c = Δ + e_H − e_D, so its exact range is [Δ − 0.09, Δ + 0.09]. The two requirements imply

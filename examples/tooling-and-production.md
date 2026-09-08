@@ -1,5 +1,7 @@
 # Building the tool that makes later production worthwhile
 
+Including a missing calibration part changes when tooling becomes worthwhile: the direct calculation favors tooling from two units onward, while the complete bootstrap route first favors it at four. The least costly first unit and the least costly complete undertaking can favor different arrangements. The accounting below supplies the actual thresholds instead of assuming either immediate output or capability investment always deserves priority.
+
 A constructed production task has three stipulated cost components. Manual production costs 4 per finished unit. A tool costs 5 to construct, then 1 per finished unit. After each three units it needs maintenance costing 2 before another unit can be made. Costs share one declared accounting unit; no financing, uncertainty, or calendar constraint is hidden in these numbers.
 
 For a known integer demand n ≥ 1, manual cost is M(n) = 4n. Tooling cost is

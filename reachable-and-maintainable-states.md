@@ -2,6 +2,8 @@
 
 For a continuing purpose, reaching an acceptable state is insufficient if every available continuation destroys it. The engineering problem includes the route to the condition and the ability to remain within the required conditions afterward.
 
+This distinction changes the judgment before it changes the calculation. An explanation available once, a tool working at demonstration, and a service sustained through repair support different claims. The finite construction below supplies the arrival-and-preservation operation when states, actions, and required conditions have been given. Discovering what should count as a worthwhile condition is a different contribution, developed in [requirements and consequences](requirements-and-consequences.md); this model does not settle it by naming a target.
+
 Use a finite set X of modeled states. At state x the controller selects an available action u. A nonempty successor set F(x,u) contains every outcome admitted after that action. Let S ⊆ X be the allowed operating states. An unavailable action has no entry; an available action never has an empty successor set. Otherwise a universal condition over an empty set could falsely certify an impossible action.
 
 Define
