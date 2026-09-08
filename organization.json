@@ -1,0 +1,2016 @@
+{
+  "version": 1,
+  "roots": [
+    {
+      "id": "worth",
+      "title": "What is worth engineering",
+      "topics": [
+        "ends",
+        "obligations",
+        "perspectives"
+      ]
+    },
+    {
+      "id": "possible",
+      "title": "What makes it possible",
+      "topics": [
+        "possibilities",
+        "connections",
+        "information"
+      ]
+    },
+    {
+      "id": "continued",
+      "title": "What keeps it possible",
+      "topics": [
+        "continuity",
+        "production",
+        "correction"
+      ]
+    },
+    {
+      "id": "improved",
+      "title": "What improves engineering",
+      "topics": [
+        "inquiry",
+        "capability",
+        "methods"
+      ]
+    }
+  ],
+  "topics": {
+    "ends": {
+      "title": "Goals, values & worthwhile change",
+      "summary": "What is wanted can change along with the means of achieving it.",
+      "groups": [
+        {
+          "title": "Purpose and its revision",
+          "results": [
+            "ends-and-means",
+            "changing-goals"
+          ]
+        },
+        {
+          "title": "Value and its comparison",
+          "results": [
+            "unbundling-values",
+            "benefit-and-effort"
+          ]
+        }
+      ]
+    },
+    "obligations": {
+      "title": "Beneficiaries, demands & authority",
+      "summary": "Who is served, what is promised, and who may decide remain distinct.",
+      "groups": [
+        {
+          "title": "Whose concern the requirement preserves",
+          "results": [
+            "coverage",
+            "guarantee-scope",
+            "symbolic-bounds"
+          ]
+        },
+        {
+          "title": "Whose judgment and permission govern",
+          "results": [
+            "permissions",
+            "disagreement"
+          ]
+        }
+      ]
+    },
+    "perspectives": {
+      "title": "Attention, interpretation & evidence",
+      "summary": "An accurate account can still omit the distinction that should govern.",
+      "groups": [
+        {
+          "title": "What the account makes available",
+          "results": [
+            "attention",
+            "representation",
+            "scope-of-design"
+          ]
+        },
+        {
+          "title": "What supports its authority",
+          "results": [
+            "shared-evidence",
+            "imagination"
+          ]
+        }
+      ]
+    },
+    "possibilities": {
+      "title": "Alternatives & missing operations",
+      "summary": "Change the available possibilities when choosing among them cannot suffice.",
+      "groups": [
+        {
+          "title": "Construct an alternative",
+          "results": [
+            "new-operation",
+            "variation"
+          ]
+        },
+        {
+          "title": "Expose a different route",
+          "results": [
+            "removing-obstructions",
+            "imagination"
+          ]
+        }
+      ]
+    },
+    "connections": {
+      "title": "Parts, handoffs & shared conditions",
+      "summary": "A working part is useful only through the conditions of its actual connection.",
+      "groups": [
+        {
+          "title": "Receiving conditions",
+          "results": [
+            "interfaces",
+            "timing"
+          ]
+        },
+        {
+          "title": "Joint dependencies and corrections",
+          "results": [
+            "shared-dependency",
+            "composed-corrections",
+            "replaceability"
+          ]
+        }
+      ]
+    },
+    "information": {
+      "title": "Observation, memory & action",
+      "summary": "Preserve the distinctions an available action needs at the moment of use.",
+      "groups": [
+        {
+          "title": "Which distinction changes the action",
+          "results": [
+            "common-action",
+            "information-cost"
+          ]
+        },
+        {
+          "title": "Present observation and remembered history",
+          "results": [
+            "stale-observation",
+            "history-and-action"
+          ]
+        },
+        {
+          "title": "Retrieval and the working view",
+          "results": [
+            "memory",
+            "attention"
+          ]
+        }
+      ]
+    },
+    "continuity": {
+      "title": "Arrival, persistence & recovery",
+      "summary": "First success, continued service, and recovery after interruption are different.",
+      "groups": [
+        {
+          "title": "Reach and preserve the condition",
+          "results": [
+            "arrival-and-preservation",
+            "stocks-and-support"
+          ]
+        },
+        {
+          "title": "Continue through failure and repair",
+          "results": [
+            "service-during-repair",
+            "recovery",
+            "reserve-and-dependence"
+          ]
+        }
+      ]
+    },
+    "production": {
+      "title": "Production, support & reproduction",
+      "summary": "Count what creates, sustains, and reproduces the capability.",
+      "groups": [
+        {
+          "title": "Create the means of continued work",
+          "results": [
+            "production-bootstrap",
+            "production-horizon"
+          ]
+        },
+        {
+          "title": "Carry the accomplishment into another use",
+          "results": [
+            "reproduction",
+            "transfer",
+            "learning-and-support"
+          ]
+        }
+      ]
+    },
+    "correction": {
+      "title": "Feedback, repair & revision",
+      "summary": "A correction needs time, a receiving operation, and compatible dependencies.",
+      "groups": [
+        {
+          "title": "Make the correction usable",
+          "results": [
+            "feedback-deadline",
+            "correction-propagation",
+            "memory"
+          ]
+        },
+        {
+          "title": "Preserve the affected connections",
+          "results": [
+            "composed-corrections",
+            "replaceability"
+          ]
+        }
+      ]
+    },
+    "inquiry": {
+      "title": "Inquiry, judgment & discovery",
+      "summary": "Choose complete continuations while allowing the purpose and inventory to change.",
+      "groups": [
+        {
+          "title": "Compare the actual contribution",
+          "results": [
+            "whole-route",
+            "information-cost",
+            "intermediate-inquiry"
+          ]
+        },
+        {
+          "title": "Reopen what the comparison assumes",
+          "results": [
+            "changing-goals",
+            "new-operation"
+          ]
+        }
+      ]
+    },
+    "capability": {
+      "title": "Learning, agency & enabling conditions",
+      "summary": "What someone knows, feels, wants, can do, and controls need different evidence.",
+      "groups": [
+        {
+          "title": "Capability and its continued use",
+          "results": [
+            "knowing-and-doing",
+            "learning-and-support",
+            "memory"
+          ]
+        },
+        {
+          "title": "Experience, willingness, and control",
+          "results": [
+            "emotion",
+            "motivation",
+            "permissions"
+          ]
+        }
+      ]
+    },
+    "methods": {
+      "title": "Unoptimized mind change & perspective",
+      "summary": "Locate the omitted contribution and change the work that still omits it.",
+      "groups": [
+        {
+          "title": "The wrong target or incomplete operation",
+          "results": [
+            "agreement",
+            "completed-operation",
+            "imagination"
+          ]
+        },
+        {
+          "title": "The effort and correction left to others",
+          "results": [
+            "usable-consequence",
+            "correction-propagation"
+          ]
+        }
+      ]
+    }
+  },
+  "results": {
+    "ends-and-means": {
+      "title": "A method’s prerequisite need not be the goal’s prerequisite",
+      "summary": "Rejecting an unavailable method can preserve the goal and expose a better route.",
+      "source": "mind-change-and-its-conditions.md#a-method-is-not-the-goal",
+      "parts": [
+        {
+          "title": "The dependency that actually holds",
+          "children": [
+            {
+              "title": "One method needs diagnosis",
+              "text": "A sign-repair route inspects two components before choosing a reversal. Those observations are necessary for that route."
+            },
+            {
+              "title": "Another method bypasses diagnosis",
+              "text": "For a positive original value and magnitude-preserving transformations, taking the delivered magnitude restores the original directly."
+            }
+          ]
+        },
+        {
+          "title": "The inference that changes",
+          "children": [
+            {
+              "title": "A goal needs it only if every adequate route does",
+              "text": "“This method requires diagnosis” cannot establish “repair requires diagnosis.” The supplied magnitude operation is a counterexample."
+            },
+            {
+              "title": "An objection can target the means",
+              "text": "Do not infer that someone rejects the goal merely because they reject a method, its cost, or its prerequisites. Establish which commitment they reject."
+            }
+          ]
+        }
+      ]
+    },
+    "changing-goals": {
+      "title": "Inquiry can discover what is worth wanting",
+      "summary": "A demand for a settled target can disable the inquiry that would discover one.",
+      "source": "mind-change-and-its-conditions.md#inquiry-can-form-its-purpose",
+      "parts": [
+        {
+          "title": "Three different undertakings",
+          "children": [
+            {
+              "title": "Execute an established change",
+              "text": "The purpose and criterion may already be justified. The missing work can then be a means of execution."
+            },
+            {
+              "title": "Discover a worthwhile change",
+              "text": "The question, beneficiary, or criterion may emerge through exploration. Requiring them in advance excludes this undertaking."
+            }
+          ]
+        },
+        {
+          "title": "Keep the comparison honest",
+          "children": [
+            {
+              "title": "A true starting account can lose authority",
+              "text": "An accurate account of completing accepted requests need not govern an inquiry into whether eligible people receive service."
+            },
+            {
+              "title": "A revised criterion is a revised claim",
+              "text": "Retain what the earlier criterion established. Identify what the new question makes relevant instead of reporting a higher score on a different task."
+            }
+          ]
+        }
+      ]
+    },
+    "unbundling-values": {
+      "title": "A conflict between bundles can hide compatible commitments",
+      "summary": "Separating content, identity, contact, and authority can preserve demands that one bundled action puts in conflict.",
+      "source": "mind-change-and-its-conditions.md#conflicting-values-and-bundled-actions",
+      "parts": [
+        {
+          "title": "The constructed publication case",
+          "children": [
+            {
+              "title": "The stipulated obligations",
+              "text": "Make the substance of a dissent available for review; protect the contributor’s identity when identification is unnecessary."
+            },
+            {
+              "title": "The initial bundle",
+              "text": "Publishing the dissent together with its author satisfies the first obligation while violating the second. Suppressing both reverses the failure."
+            }
+          ]
+        },
+        {
+          "title": "A different available action",
+          "children": [
+            {
+              "title": "Separate the fields",
+              "text": "Publish the required substantive account; withhold the unnecessary identity and contact route. Under these stated obligations, both demands are met."
+            },
+            {
+              "title": "Preserve a real remaining conflict",
+              "text": "If accountable identification is itself required, this separation does not settle the case. Compare that actual obligation; do not declare all values compatible."
+            }
+          ]
+        }
+      ]
+    },
+    "benefit-and-effort": {
+      "title": "Less effort does not always mean a better change",
+      "summary": "Completion, understanding, interest, later reuse, and burdens on others can change the ranking.",
+      "source": "mind-change-and-its-conditions.md#efficiency-depends-on-what-is-valued",
+      "parts": [
+        {
+          "title": "Two routes with different consequences",
+          "children": [
+            {
+              "title": "Route A: finish in one unit",
+              "text": "The stipulated task is completed without an additional valued distinction."
+            },
+            {
+              "title": "Route B: finish in two units and gain a distinction",
+              "text": "B has more immediate cost and another possible benefit. Completion time alone does not rank the whole consequence."
+            }
+          ]
+        },
+        {
+          "title": "What an efficiency judgment must retain",
+          "children": [
+            {
+              "title": "Valuation determines the comparison",
+              "text": "If only task completion matters, A wins. If the extra understanding is worth the extra effort, B can win. No common value scale has been supplied merely by counting time."
+            },
+            {
+              "title": "Include displaced and later effort",
+              "text": "A short answer can move reconstruction to the reader. A reusable construction can cost more now and save work later, provided the relevant uses occur."
+            }
+          ]
+        }
+      ]
+    },
+    "coverage": {
+      "title": "100% completion can coexist with 10% coverage",
+      "summary": "A perfect score over accepted requests can conceal exclusion of the people the service concerns.",
+      "source": "requirements-and-consequences.md",
+      "parts": [
+        {
+          "title": "Two different denominators",
+          "children": [
+            {
+              "title": "Completion: 10 of 10 accepted requests",
+              "text": "Every accepted request is served, so completion is 100%. This report can be accurate."
+            },
+            {
+              "title": "Coverage: 10 of 100 eligible requests",
+              "text": "Ninety eligible requests never enter that denominator. Service reaches only 10% of the relevant requests."
+            }
+          ]
+        },
+        {
+          "title": "Two different repairs",
+          "children": [
+            {
+              "title": "Repair the governing question",
+              "text": "Ask whether eligible requests are served. More accurate reporting of accepted work alone preserves the exclusion."
+            },
+            {
+              "title": "Supply the missing service",
+              "text": "Changing the denominator makes the shortfall visible. Capacity, access, or another actual service route must still address it."
+            }
+          ]
+        }
+      ]
+    },
+    "guarantee-scope": {
+      "title": "A guarantee changes when its conditions change",
+      "summary": "One design, one environment, one duration, and one set of requirements define a different claim from all of them.",
+      "source": "requirements-and-consequences.md#a-stronger-claim-requires-a-different-quantifier",
+      "parts": [
+        {
+          "title": "Distinctions inside the claim",
+          "children": [
+            {
+              "title": "One successful case versus every admitted case",
+              "text": "A working instance establishes existence. A universal guarantee must cover every state and disturbance it admits.",
+              "children": [
+                {
+                  "title": "Conditions admitted",
+                  "text": "The cases include the relevant environment, disturbance, and operating state. A proof over one admitted set does not settle an enlarged one."
+                }
+              ]
+            },
+            {
+              "title": "Once versus continued use",
+              "text": "Arrival at a desired condition does not establish a policy that preserves it through wear, demand, and repair."
+            }
+          ]
+        },
+        {
+          "title": "Distinctions inside a revision",
+          "children": [
+            {
+              "title": "Restricting the admitted conditions",
+              "text": "A valve qualified at one pressure has a narrower claim than a valve qualified across a pressure range. The restriction is substantive."
+            },
+            {
+              "title": "Preserving the original obligation",
+              "text": "If excluded circumstances still matter, proving the narrower claim leaves their obligation unresolved. Naming a limit does not discharge it."
+            }
+          ]
+        }
+      ]
+    },
+    "permissions": {
+      "title": "A valid instruction does not supply authority",
+      "summary": "Correct content, competence, permission, and the ability to withdraw are different conditions.",
+      "source": "engineering-capability.md#engineering-a-worthwhile-arrangement-preserves-agency-where-agency-matters",
+      "parts": [
+        {
+          "title": "What the recipient may possess",
+          "children": [
+            {
+              "title": "Understanding and skill",
+              "text": "A person can understand the instruction and know how to execute it while lacking access or permission."
+            },
+            {
+              "title": "A legitimate refusal",
+              "text": "Refusal can preserve a valid concern. Increased compliance would not establish that the undertaking became more worthwhile."
+            }
+          ]
+        },
+        {
+          "title": "What participation requires",
+          "children": [
+            {
+              "title": "Effective control over the relevant choice",
+              "text": "Where participation is part of the concern, people need an actual opportunity to understand, question, revise, or decline the arrangement."
+            },
+            {
+              "title": "A permission with the right scope",
+              "text": "Authority to inspect does not imply authority to publish or alter. A message about permission does not itself grant permission."
+            }
+          ]
+        }
+      ]
+    },
+    "disagreement": {
+      "title": "Different judgments need not be contradictory factual claims",
+      "summary": "Meaning, reference, evidence, values, permissions, and methods can each locate a different disagreement.",
+      "source": "mind-change-and-its-conditions.md#disagreement-does-not-have-one-repair",
+      "parts": [
+        {
+          "title": "Locate what differs",
+          "children": [
+            {
+              "title": "Different question or reference class",
+              "text": "“All requests were completed” can concern accepted requests while “most people were not served” concerns eligible requests. Both can be true."
+            },
+            {
+              "title": "Different priorities or authority",
+              "text": "Two people can accept the same calculation while disagreeing about whose burden is permissible or who may decide."
+            }
+          ]
+        },
+        {
+          "title": "Apply a repair to that difference",
+          "children": [
+            {
+              "title": "Evidence can address a disputed factual premise",
+              "text": "A corrected count changes a count-dependent conclusion. It cannot, by itself, choose a beneficiary or grant authority."
+            },
+            {
+              "title": "Do not erase a live difference for coherence",
+              "text": "Retain incompatible demands until an actual alternative, justified decision, or changed condition addresses them. Matching vocabulary does not reconcile them."
+            }
+          ]
+        }
+      ]
+    },
+    "representation": {
+      "title": "An organization is adequate for the distinctions it preserves",
+      "summary": "A subject tree can preserve membership while losing dependencies, evidence, timing, or alternative interpretations.",
+      "source": "mind-change-and-its-conditions.md#one-hierarchy-cannot-preserve-every-relation",
+      "parts": [
+        {
+          "title": "What can be recovered",
+          "children": [
+            {
+              "title": "A retained distinction",
+              "text": "If two cases need different answers, their representation must keep enough information to distinguish them or recover the distinction."
+            },
+            {
+              "title": "A lost distinction",
+              "text": "If a representation makes those cases identical, no decoder using that representation alone can always supply their different answers."
+            }
+          ]
+        },
+        {
+          "title": "What changes the organization",
+          "children": [
+            {
+              "title": "Several views of one result",
+              "text": "Purpose, mental change, causal dependency, and proof can organize the same canonical result differently. The view changes; the result need not be duplicated."
+            },
+            {
+              "title": "More depth is useful only when it carries a relation",
+              "text": "A file name is not a completed leaf. Conversely, inventing further folders after the relevant distinctions are explicit adds no missing knowledge."
+            }
+          ]
+        }
+      ]
+    },
+    "scope-of-design": {
+      "title": "A boundary can exclude the variable that repairs the problem",
+      "summary": "Nominal dimensions, manufacturing variation, assembly policy, and use conditions expose different interventions.",
+      "source": "designing-missing-possibilities.md#changing-the-system-boundary-changes-what-can-be-designed",
+      "parts": [
+        {
+          "title": "Four scopes of the fit undertaking",
+          "children": [
+            {
+              "title": "Part dimensions",
+              "text": "Under the original manufacturing variation, no nominal difference satisfies both clearance limits."
+            },
+            {
+              "title": "Manufacturing and assembly",
+              "text": "Reducing variation creates a feasible interval. Matching particular pairs changes the admitted joint combinations."
+            }
+          ]
+        },
+        {
+          "title": "The consequences of expanding the scope",
+          "children": [
+            {
+              "title": "Replacement and environment",
+              "text": "Matched assembly creates a replacement obligation. Environmental drift can defeat a fit that works before use."
+            },
+            {
+              "title": "Broader is useful when it changes the live judgment",
+              "text": "Including more causes is not automatically better. Include a boundary’s extra variables when they change an available intervention or a justified conclusion."
+            }
+          ]
+        }
+      ]
+    },
+    "shared-evidence": {
+      "title": "Two reports can still supply only one evidential route",
+      "summary": "Agreement between copies does not independently check the event they both copy.",
+      "source": "mind-change-and-its-conditions.md#trust-and-evidence-have-distinct-dependencies",
+      "parts": [
+        {
+          "title": "Trace the actual origin",
+          "children": [
+            {
+              "title": "Two dashboards, one event record",
+              "text": "If both reports copy the same mistaken record, their agreement survives the error. Counting them as independent confirmations adds no protection against it."
+            },
+            {
+              "title": "Several arguments, one indispensable premise",
+              "text": "Defeating the shared premise defeats these routes to a conclusion without proving that the conclusion is false. Another route may establish it."
+            }
+          ]
+        },
+        {
+          "title": "Keep different judgments distinct",
+          "children": [
+            {
+              "title": "Sincerity, access, competence, permission, reliability",
+              "text": "A sincere speaker can lack direct access. A reliable report can still be unauthorized to disclose. One person-wide trust score loses these differences."
+            },
+            {
+              "title": "Check the dependency that could change the answer",
+              "text": "Seek an observation or justification that does not merely reproduce the questioned source. Independence must follow the actual route."
+            }
+          ]
+        }
+      ]
+    },
+    "new-operation": {
+      "title": "A new operation can make the old optimum unnecessary",
+      "summary": "The sign-repair optimum falls from cost 3 to cost 1 when the proved magnitude operation enters the available set.",
+      "source": "examples/correcting-composed-signs.md",
+      "parts": [
+        {
+          "title": "The old and new possibilities",
+          "children": [
+            {
+              "title": "Original inventory",
+              "text": "Inspecting both sign transformations and then correcting the delivered sign costs 3. A direct reset costs 4. The diagnostic route is optimal in that inventory."
+            },
+            {
+              "title": "Supplied operation",
+              "text": "For a positive original value, magnitude-preserving sign transformations leave its magnitude intact. Taking the delivered absolute value restores the original for cost 1.",
+              "children": [
+                {
+                  "title": "Why magnitude is enough",
+                  "text": "For original x > 0, the delivered value is either x or −x. Both have absolute value x, so no distinction between the two transformations is needed."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "The exact boundary of the improvement",
+          "children": [
+            {
+              "title": "A negative original value is a counterexample",
+              "text": "Absolute value would return a positive value instead of the original negative value. The condition cannot be discarded."
+            },
+            {
+              "title": "Change the planner’s inventory",
+              "text": "Better search through the old operations cannot select an absent operation. The receiving planner must admit the construction and its precondition."
+            }
+          ]
+        }
+      ]
+    },
+    "variation": {
+      "title": "Changing variation can remove an impossible nominal trade-off",
+      "summary": "With half-widths 0.010 and 0.015, nominal differences from 0.045 to 0.075 meet both clearance limits.",
+      "source": "examples/shaft-and-hole-fit.md",
+      "parts": [
+        {
+          "title": "The original obstruction",
+          "children": [
+            {
+              "title": "Nominal adjustment cannot satisfy both extremes",
+              "text": "With original half-widths 0.040 and 0.050, the nominal gap would need to be at least 0.110 and at most 0.010. No value does both."
+            },
+            {
+              "title": "The variable that changes feasibility",
+              "text": "Reducing the combined error half-width to 0.025 yields the nonempty nominal interval 0.045–0.075."
+            }
+          ]
+        },
+        {
+          "title": "A supplied design and its remaining conditions",
+          "children": [
+            {
+              "title": "Nominal gap 0.060",
+              "text": "The admitted actual clearance is 0.035–0.085 before additional environmental drift. Both stated limits are satisfied."
+            },
+            {
+              "title": "Capability and measurement remain distinct",
+              "text": "This derivation specifies needed manufacturing capability. Inspection can discover a part’s dimension; it does not itself reduce production variation."
+            }
+          ]
+        }
+      ]
+    },
+    "removing-obstructions": {
+      "title": "Removing an exclusion can enable an existing useful action",
+      "summary": "A new resource is unnecessary when an authorized removal releases the resource or action already needed.",
+      "source": "designing-missing-possibilities.md#removal-can-supply-the-missing-capability",
+      "parts": [
+        {
+          "title": "Two ways an existing route is blocked",
+          "children": [
+            {
+              "title": "A rule disables an adequate action",
+              "text": "If the rule is unnecessary and its authorized removal preserves every legitimate condition, removal makes the old mechanism available."
+            },
+            {
+              "title": "An irrelevant process holds an exclusive resource",
+              "text": "Ending that process can release the resource for the useful operation. More exhortation does not release it."
+            }
+          ]
+        },
+        {
+          "title": "What must remain true",
+          "children": [
+            {
+              "title": "An actual route becomes available",
+              "text": "A relabeling that leaves the same actions disabled does not supply this change. Identify the resource released or exclusion removed."
+            },
+            {
+              "title": "Legitimate protections still govern",
+              "text": "Removing a safety or permission condition changes the undertaking. It cannot be credited as satisfying the original conditions merely because action becomes easier."
+            }
+          ]
+        }
+      ]
+    },
+    "imagination": {
+      "title": "An accurate account need not remain the governing account",
+      "summary": "A new possibility can arise by changing what is being asked, without first proving the original account false.",
+      "source": "mind-change-and-its-conditions.md#inquiry-can-form-its-purpose",
+      "parts": [
+        {
+          "title": "Preserve what the starting account establishes",
+          "children": [
+            {
+              "title": "Completion within accepted requests",
+              "text": "The original completion count can be entirely correct. Its truth is compatible with the exclusion of eligible requests."
+            },
+            {
+              "title": "Optimality within supplied actions",
+              "text": "The sign planner can be exactly optimal. Its proof does not establish that the inventory contains every constructible action."
+            }
+          ]
+        },
+        {
+          "title": "Develop the changed perspective far enough to matter",
+          "children": [
+            {
+              "title": "Ask about the excluded consequence",
+              "text": "Coverage exposes the unserved requests; taking magnitude constructs a cheaper adequate operation under its positive-source condition."
+            },
+            {
+              "title": "A renamed account is insufficient",
+              "text": "The new perspective earns its place through a changed question, distinction, operation, or judgment. Merely labeling it perfected supplies none of these."
+            }
+          ]
+        }
+      ]
+    },
+    "interfaces": {
+      "title": "Correct components need compatible receiving conditions",
+      "summary": "Overlap between one component’s outputs and another’s accepted inputs is weaker than guaranteed composition.",
+      "source": "compatible-parts-and-processes.md#guaranteed-composition-preserves-the-joint-conditions",
+      "parts": [
+        {
+          "title": "The failed composition",
+          "children": [
+            {
+              "title": "Producer admits outputs from 0 to 10",
+              "text": "The producer can meet its own specification by returning 2."
+            },
+            {
+              "title": "Receiver admits inputs from 5 to 15",
+              "text": "The receiver can meet its own specification and still reject 2. Nonempty overlap does not protect every admitted output."
+            }
+          ]
+        },
+        {
+          "title": "Three different repairs",
+          "children": [
+            {
+              "title": "Restrict or extend a supported range",
+              "text": "Restrict the producer to 5–10, or extend the receiver to accept 0–15, when the undertaking allows the change."
+            },
+            {
+              "title": "Supply an actual converter",
+              "text": "A converter must map every relevant output into accepted inputs and be available when needed. Naming an interface leaves this operation unsupplied."
+            }
+          ]
+        }
+      ]
+    },
+    "timing": {
+      "title": "Correct contributions can be jointly unavailable in time",
+      "summary": "Two individually feasible tasks can demand more concurrent capacity than the arrangement supplies.",
+      "source": "compatible-parts-and-processes.md#timing-and-support-are-part-of-an-interface",
+      "parts": [
+        {
+          "title": "The constructed resource conflict",
+          "children": [
+            {
+              "title": "Two one-hour tasks in the same hour",
+              "text": "Both require the same exclusive machine throughout their execution. Each task alone fits."
+            },
+            {
+              "title": "Their joint demand exceeds supply",
+              "text": "Changing their order cannot fit two exclusive machine-hours into one hour. More consistent instructions leave this arithmetic unchanged."
+            }
+          ]
+        },
+        {
+          "title": "Changes that affect the obstruction",
+          "children": [
+            {
+              "title": "Change a causal condition",
+              "text": "A second machine, a longer permitted interval, a faster valid process, or a legitimate requirement revision can alter feasibility."
+            },
+            {
+              "title": "Count time until the contribution is usable",
+              "text": "Arrival, interpretation, and necessary support belong to the relevant dependency path. A correct message after the last useful start time does not restore the expired option."
+            }
+          ]
+        }
+      ]
+    },
+    "shared-dependency": {
+      "title": "Redundant routes can fail through the same dependency",
+      "summary": "If both alternatives require the same unavailable condition, adding the second alternative leaves that failure intact.",
+      "source": "compatible-parts-and-processes.md#redundancy-inherits-common-dependencies",
+      "parts": [
+        {
+          "title": "The exact dependence",
+          "children": [
+            {
+              "title": "Route A needs a and c; route B needs b and c",
+              "text": "Combined success requires c and at least one of a or b. The second route protects against loss of a or b individually."
+            },
+            {
+              "title": "Failure of c defeats both routes",
+              "text": "Two pumps on one unavailable power supply are redundant only with respect to failures their routes actually separate."
+            }
+          ]
+        },
+        {
+          "title": "What the correction must change",
+          "children": [
+            {
+              "title": "Supply or diversify the common condition",
+              "text": "Inspect the shared power, authorization, source record, or premise before counting independent protection."
+            },
+            {
+              "title": "Do not invent independence from names",
+              "text": "Different labels or locations do not establish distinct failure routes. Probability claims require the relevant joint distribution."
+            }
+          ]
+        }
+      ]
+    },
+    "composed-corrections": {
+      "title": "Repairing one component can worsen the delivered result",
+      "summary": "Two sign reversals cancel; removing just one reversal changes a positive delivery to a negative one.",
+      "source": "compatible-parts-and-processes.md#a-repair-must-reestablish-the-receiving-conditions",
+      "parts": [
+        {
+          "title": "Which obligation is being repaired?",
+          "children": [
+            {
+              "title": "End-to-end value only",
+              "text": "With two reversals, the received sign matches the positive original. Correcting only the producer breaks that end-to-end property."
+            },
+            {
+              "title": "Each component must preserve sign",
+              "text": "Under this additional obligation, both components need correction. An acceptable final value does not establish their individual conformity."
+            }
+          ]
+        },
+        {
+          "title": "Follow the receiving relationship",
+          "children": [
+            {
+              "title": "Coordinate the affected changes",
+              "text": "A revised convention, range, timing, or authority matters at the consumers that rely on it. A locally working replacement can still be incompatible."
+            },
+            {
+              "title": "Revisit what consumed the changed premise",
+              "text": "A correction should reach those dependencies. Unrelated work need not be reopened merely because something changed."
+            }
+          ]
+        }
+      ]
+    },
+    "common-action": {
+      "title": "Enough information depends on the action that must succeed",
+      "summary": "A distinction is unnecessary for feasibility when one available action works for every case it leaves together.",
+      "source": "information-and-control.md",
+      "parts": [
+        {
+          "title": "The wider water requirement",
+          "children": [
+            {
+              "title": "Levels 1–4: add 2",
+              "text": "With unknown withdrawal 0, 1, or 2, every next level is still in 1–9.",
+              "children": [
+                {
+                  "title": "Every admitted next level",
+                  "text": "The smallest is 1 + 2 − 2 = 1; the largest is 4 + 2 − 0 = 6. Both endpoints lie within 1–9."
+                }
+              ]
+            },
+            {
+              "title": "Levels 5–9: add 0",
+              "text": "Every next level is also in 1–9. A low/high reading supplies the complete choice; exact measurement is unnecessary for this guarantee.",
+              "children": [
+                {
+                  "title": "Every admitted next level",
+                  "text": "The smallest is 5 + 0 − 2 = 3; the largest is 9 + 0 − 0 = 9. This branch also stays within 1–9."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "A changed requirement changes the needed distinction",
+          "children": [
+            {
+              "title": "Reach and preserve 4–6",
+              "text": "The supplied exact-level controller reaches this narrower region within three periods and preserves it. The earlier two-action policy does not establish this result."
+            }
+          ]
+        },
+        {
+          "title": "Adequacy and efficiency answer different questions",
+          "children": [
+            {
+              "title": "Feasible need not mean least costly",
+              "text": "Further information may permit a cheaper action even when a common adequate action already exists. Compare its cost and the complete continuation."
+            }
+          ]
+        }
+      ]
+    },
+    "stale-observation": {
+      "title": "An exact past observation can be inadequate now",
+      "summary": "The relevant cases are current possibilities, not just the precision of an earlier reading.",
+      "source": "information-and-control.md#an-observation-is-not-automatically-timely-enough",
+      "parts": [
+        {
+          "title": "How the uncertainty returns",
+          "children": [
+            {
+              "title": "Earlier level: exactly 4",
+              "text": "An intervening withdrawal of 0, 1, or 2 leaves current levels 4, 3, or 2 possible."
+            },
+            {
+              "title": "Acting as if 4 were still certain",
+              "text": "Adding 2 followed by another permitted withdrawal can produce a next level as low as 2. The reading’s past accuracy cannot guarantee the narrower band."
+            }
+          ]
+        },
+        {
+          "title": "What can restore a justified choice",
+          "children": [
+            {
+              "title": "Observe, predict within justified bounds, or change the action",
+              "text": "The controller must cover the remaining current possibilities. Historical precision is not a substitute for that coverage."
+            },
+            {
+              "title": "Retain the time and relevant history",
+              "text": "A value detached from its age and intervening changes can lose the distinctions the receiving operation requires."
+            }
+          ]
+        }
+      ]
+    },
+    "memory": {
+      "title": "Stored information needs a route back into the relevant use",
+      "summary": "Retention, retrieval, recognition of applicability, and changed action are separate dependencies.",
+      "source": "mind-change-and-its-conditions.md#attention-and-memory-need-receiving-operations",
+      "parts": [
+        {
+          "title": "What a stored correction does not guarantee",
+          "children": [
+            {
+              "title": "Availability in an archive",
+              "text": "The correction can exist without being retrieved at the next decision. More stored copies do not establish timely access."
+            },
+            {
+              "title": "Recognition of the applicable condition",
+              "text": "The magnitude repair works for a positive source. Remembering “use absolute value” while losing that condition can reproduce the negative-source failure."
+            }
+          ]
+        },
+        {
+          "title": "What useful reuse preserves",
+          "children": [
+            {
+              "title": "The trigger and decisive relation",
+              "text": "Keep the positive-source condition with the operation and the negative counterexample. The needed distinction must be recoverable where the operation is selected."
+            },
+            {
+              "title": "A changed receiving operation",
+              "text": "An archived correction becomes operational when the affected rule or consumer uses it. File existence alone establishes storage, not uptake or learning."
+            }
+          ]
+        }
+      ]
+    },
+    "attention": {
+      "title": "What is visible can determine which question is even available",
+      "summary": "A working view must expose the distinction needed for the live judgment.",
+      "source": "mind-change-and-its-conditions.md#attention-and-memory-need-receiving-operations",
+      "parts": [
+        {
+          "title": "Two accurate displays with different consequences",
+          "children": [
+            {
+              "title": "Accepted requests and completed requests only",
+              "text": "The display can support a correct completion judgment while leaving eligible but unaccepted requests unavailable to inspection."
+            },
+            {
+              "title": "Eligible requests beside served requests",
+              "text": "The same undertaking now exposes the coverage shortfall. This supplies a distinction the first view omitted."
+            }
+          ]
+        },
+        {
+          "title": "Different repairs for different omissions",
+          "children": [
+            {
+              "title": "Selection and representation",
+              "text": "Put the consequential comparison in the working view. Merely telling a reader to be more attentive does not supply the missing denominator."
+            },
+            {
+              "title": "Perception and interpretation",
+              "text": "Visible marks must carry distinguishable meanings. A parent-child line can show containment; it does not also explain whether one subject causes, supports, or exemplifies another."
+            }
+          ]
+        }
+      ]
+    },
+    "arrival-and-preservation": {
+      "title": "Reaching a condition once does not establish continued capability",
+      "summary": "A route to a target and a policy that preserves it are different constructions.",
+      "source": "reachable-and-maintainable-states.md",
+      "parts": [
+        {
+          "title": "Construct preservation first",
+          "children": [
+            {
+              "title": "Remove states without a preserving action",
+              "text": "In the finite supplied model, repeatedly retain only states with an available action whose every admitted successor stays in the retained set."
+            },
+            {
+              "title": "At the fixed point, preservation follows",
+              "text": "Choosing such an action at each step keeps the state inside the set by induction, while the modeled conditions and action availability continue."
+            }
+          ]
+        },
+        {
+          "title": "Then construct arrival",
+          "children": [
+            {
+              "title": "Expand outward by robust predecessors",
+              "text": "A newly included state has an action sending every successor to an earlier layer. The layer index bounds worst-case steps to the maintainable target."
+            },
+            {
+              "title": "An absent action is not a successful action",
+              "text": "An empty successor set cannot certify control by vacuous truth. The construction requires available actions with nonempty admitted outcomes."
+            }
+          ]
+        }
+      ]
+    },
+    "stocks-and-support": {
+      "title": "Continued service consumes conditions that must also continue",
+      "summary": "A service-only state can hide the stock, labor, or authority that makes its next action available.",
+      "source": "reachable-and-maintainable-states.md#why-maintenance-resources-belong-in-the-state",
+      "parts": [
+        {
+          "title": "Include what an action consumes",
+          "children": [
+            {
+              "title": "Battery, part, time, or repair allowance",
+              "text": "Treating the action as always available implicitly supplies replenishment. Without it, the claimed indefinite route may not exist."
+            },
+            {
+              "title": "Track the support as part of the state",
+              "text": "For stock b, action cost c, and replenishment r, the next stock is b − c + r. Execution also requires enough stock before the action."
+            }
+          ]
+        },
+        {
+          "title": "Preserve service and support together",
+          "children": [
+            {
+              "title": "A joint invariant can be smaller or empty",
+              "text": "A service state that appears maintainable may lose that status when exhausted support is represented."
+            },
+            {
+              "title": "Identify the replenishing route",
+              "text": "The relevant question includes who repairs the maintainer, supplies replacement parts, renews access, and remains available during interruption."
+            }
+          ]
+        }
+      ]
+    },
+    "service-during-repair": {
+      "title": "No dispatch policy supplies absent concurrent repair labor",
+      "summary": "Two stations provide four initial jobs; one fully occupied worker cannot sustain service in the stipulated model.",
+      "source": "examples/service-during-repair.md",
+      "parts": [
+        {
+          "title": "The one-worker obstruction",
+          "children": [
+            {
+              "title": "Each station serves twice before repair",
+              "text": "Using the two initially ready stations consumes four services of initial capacity."
+            },
+            {
+              "title": "All labor serves current demand",
+              "text": "No labor remains for repair while continuous service is required. Reordering dispatch cannot create the missing simultaneous work."
+            }
+          ]
+        },
+        {
+          "title": "The changed arrangement",
+          "children": [
+            {
+              "title": "Two workers can serve and repair concurrently",
+              "text": "One station serves while the other is restored. The resulting finite policy sustains service from eight of nine wear states.",
+              "children": [
+                {
+                  "title": "The invariant behind the eight states",
+                  "text": "Unless both stations are fully worn, at least one can serve now. Repairing the other station restores it to ready for the next period, preserving the existence of a station that can serve."
+                }
+              ]
+            },
+            {
+              "title": "The excluded starting condition matters",
+              "text": "If both stations are already fully worn, no station can serve immediately. More capable ongoing maintenance does not erase this initial obstruction."
+            }
+          ]
+        }
+      ]
+    },
+    "recovery": {
+      "title": "A repair route and uninterrupted service are different guarantees",
+      "summary": "Being able to restore operation after an interruption does not establish service during that interruption.",
+      "source": "production-and-maintenance.md#reliability-and-recoverability-answer-different-questions",
+      "parts": [
+        {
+          "title": "Three distinct continuations",
+          "children": [
+            {
+              "title": "Remain within the acceptable condition",
+              "text": "This requires an operating route that preserves the condition through the admitted disturbances."
+            },
+            {
+              "title": "Leave and later return",
+              "text": "A recovery route can restore a damaged arrangement while allowing a period of unavailable service."
+            }
+          ]
+        },
+        {
+          "title": "What the undertaking requires during repair",
+          "children": [
+            {
+              "title": "Reserves can cover a bounded interruption",
+              "text": "If each period consumes one reserve unit and repair takes d periods, at least d available units are needed to cover that interval under the stated demand."
+            },
+            {
+              "title": "Support the repair itself",
+              "text": "A named recovery plan needs available labor, parts, access, and time. The service requirement determines whether interruption is acceptable."
+            }
+          ]
+        }
+      ]
+    },
+    "production-bootstrap": {
+      "title": "A producer’s missing prerequisite changes the investment threshold",
+      "summary": "Including the bootstrap part moves the tooling advantage from two units to four.",
+      "source": "examples/tooling-and-production.md",
+      "parts": [
+        {
+          "title": "The initially incomplete comparison",
+          "children": [
+            {
+              "title": "Manual production costs 4n",
+              "text": "Each unit costs four work units."
+            },
+            {
+              "title": "Ready tooling costs 5 + n + 2 floor((n−1)/3)",
+              "text": "The tool has setup cost, per-unit work, and periodic maintenance. This ready-tool comparison favors tooling from n = 2."
+            }
+          ]
+        },
+        {
+          "title": "Supply the prerequisite and recompute",
+          "children": [
+            {
+              "title": "The missing bootstrap part costs 4",
+              "text": "The complete tooling route costs 9 + n + 2 floor((n−1)/3). It cannot make its own first required part before it can operate."
+            },
+            {
+              "title": "The complete comparison changes",
+              "text": "Manual production is cheaper for one or two units; the routes tie at three; complete tooling is cheaper from four onward."
+            }
+          ]
+        }
+      ]
+    },
+    "production-horizon": {
+      "title": "The best first result can choose the worse continuing arrangement",
+      "summary": "A capability investment can be worthwhile through its continuation despite lower immediate output.",
+      "source": "designing-missing-possibilities.md#intermediate-capability-can-be-worth-a-temporary-loss",
+      "parts": [
+        {
+          "title": "Which undertaking is being compared?",
+          "children": [
+            {
+              "title": "One finished unit",
+              "text": "The full tooling route costs more than manual production for a single unit."
+            },
+            {
+              "title": "A known run of four or more units",
+              "text": "Including bootstrap and periodic maintenance, the tooling route costs less across the full stipulated run."
+            }
+          ]
+        },
+        {
+          "title": "What an immediate-only rule loses",
+          "children": [
+            {
+              "title": "It rejects the enabling step",
+              "text": "Tool construction produces no finished service unit immediately. A rule requiring each step to improve current output excludes the investment."
+            },
+            {
+              "title": "Actual continuation governs the gain",
+              "text": "Future uses, deadlines, loss of usefulness, support costs, and valued learning can change a reuse comparison. Hypothetical infinite reuse does not settle a finite undertaking."
+            }
+          ]
+        }
+      ]
+    },
+    "reproduction": {
+      "title": "A repeatable artifact can still depend on an unrepeatable contribution",
+      "summary": "An expert’s hidden adjustment belongs to the production arrangement when each successful use needs it.",
+      "source": "production-and-maintenance.md#reproduction-can-fail-through-a-hidden-one-time-contribution",
+      "parts": [
+        {
+          "title": "What the apparent product omits",
+          "children": [
+            {
+              "title": "The demonstration’s environment",
+              "text": "A sample output can rely on its author’s access, judgment, local data, manual correction, or unavailable tooling."
+            },
+            {
+              "title": "The next recipient’s arrangement",
+              "text": "Copying the artifact does not copy those contributions. Successful use by the original author does not establish independent reproduction."
+            }
+          ]
+        },
+        {
+          "title": "What a complete reproduction route supplies",
+          "children": [
+            {
+              "title": "Make the necessary contribution usable",
+              "text": "Implement the operation, supply the dependency, or retain a qualified available maintainer with its cost and limits."
+            },
+            {
+              "title": "Distinguish support from recipient learning",
+              "text": "A person can perform well with a supplied tool while lacking the unsupported skill. Both can be valuable, but they are different accomplishments."
+            }
+          ]
+        }
+      ]
+    },
+    "transfer": {
+      "title": "A result transfers through its premises, not its vocabulary",
+      "summary": "The same dependency can support a deduction in another setting when the receiving case actually satisfies it.",
+      "source": "unoptimized-perspectives.md#transfer-follows-the-premises-that-make-the-operation-work",
+      "parts": [
+        {
+          "title": "A justified transfer",
+          "children": [
+            {
+              "title": "Shared indispensable condition",
+              "text": "Two physical routes and two arguments can share the Boolean pattern “both require c.” Failure of c defeats those routes in either case."
+            },
+            {
+              "title": "The receiving facts must establish that pattern",
+              "text": "Calling both cases systems does not prove that their conditions, authority, uncertainty, or mechanisms agree."
+            }
+          ]
+        },
+        {
+          "title": "What remains case-specific",
+          "children": [
+            {
+              "title": "Mechanisms and observed effects",
+              "text": "A proof about a finite water controller supplies no measurement of human understanding or physical pump performance. Those claims need their own receiving evidence."
+            },
+            {
+              "title": "Recheck a changed condition",
+              "text": "Different disturbances, duration, beneficiaries, permissions, or available actions can invalidate the original use while leaving the original deduction intact."
+            }
+          ]
+        }
+      ]
+    },
+    "feedback-deadline": {
+      "title": "Feedback after the last useful start time cannot restore an expired option",
+      "summary": "Correct content can arrive too late to change the action it was meant to support.",
+      "source": "mind-change-and-its-conditions.md#feedback-has-a-deadline",
+      "parts": [
+        {
+          "title": "The stipulated timing case",
+          "children": [
+            {
+              "title": "The corrective action must start by 09:20",
+              "text": "After that time, the available action cannot meet the live deadline."
+            },
+            {
+              "title": "The accurate report arrives at 09:25",
+              "text": "Even immediate comprehension leaves the report five minutes late. Better wording alone cannot restore the expired action."
+            }
+          ]
+        },
+        {
+          "title": "Different timing repairs",
+          "children": [
+            {
+              "title": "Change when the information becomes usable",
+              "text": "Earlier detection, an earlier report, or a justified action requiring less remaining time can alter the result. Each needs its actual route."
+            },
+            {
+              "title": "Change a legitimate timing condition",
+              "text": "A revised deadline or continuing reserve can create another opportunity when authorized and feasible. The original deadline was still missed."
+            }
+          ]
+        }
+      ]
+    },
+    "correction-propagation": {
+      "title": "A correction matters at the operations that consume it",
+      "summary": "A stored critique leaves the next result unchanged when the generator still uses the defeated rule.",
+      "source": "unoptimized-mind-change-methods.md#stored-corrections-need-to-change-what-produces-the-next-result",
+      "parts": [
+        {
+          "title": "Where the old error survives",
+          "children": [
+            {
+              "title": "A rule produces a recommendation",
+              "text": "If the rule is unchanged, adding a critique elsewhere does not alter the recommendation."
+            },
+            {
+              "title": "A generated view consumes source data",
+              "text": "Fixing a source file without regenerating its dependent view can leave the recipient using the old content."
+            }
+          ]
+        },
+        {
+          "title": "The supplied correction route",
+          "children": [
+            {
+              "title": "Change or restrict the active producer",
+              "text": "Replace the defeated rule, preserve its valid conditions, and update the consumers whose conclusions rely on it."
+            },
+            {
+              "title": "Keep the counterexample with its trigger",
+              "text": "The positive-source magnitude repair and the negative-source failure must travel together. A correction that drops applicability can generate a new error."
+            }
+          ]
+        }
+      ]
+    },
+    "replaceability": {
+      "title": "A qualified pair does not establish interchangeable replacement",
+      "summary": "Matched assembly can work while arbitrary replacement violates the relationship that made it work.",
+      "source": "compatible-parts-and-processes.md#guaranteed-composition-preserves-the-joint-conditions",
+      "parts": [
+        {
+          "title": "Different admitted combinations",
+          "children": [
+            {
+              "title": "Every independently admitted pair",
+              "text": "A guarantee of free interchangeability must cover the Cartesian product of the allowed component ranges."
+            },
+            {
+              "title": "Only selected matched pairs",
+              "text": "A matching rule can admit a smaller joint set. A successful particular pair establishes the relation for that pair."
+            }
+          ]
+        },
+        {
+          "title": "The obligation created by matching",
+          "children": [
+            {
+              "title": "A replacement must preserve the pairing condition",
+              "text": "A component working in isolation can fail with the retained counterpart. Replacement selection must recover the required joint fit."
+            },
+            {
+              "title": "Carry the receiving conditions into maintenance",
+              "text": "Dimensions, identifiers, conventions, timing, and authority can all be parts of the receiving relation. “Working replacement” is incomplete without them."
+            }
+          ]
+        }
+      ]
+    },
+    "whole-route": {
+      "title": "The next useful contribution depends on complete continuations",
+      "summary": "A question is valuable through the later actions it makes possible, not simply the information it returns.",
+      "source": "choosing-the-next-contribution.md",
+      "parts": [
+        {
+          "title": "The explicit finite selection",
+          "children": [
+            {
+              "title": "Compare intervention with inquiry branches",
+              "text": "For each available inquiry, include its cost and the best valid continuation for every possible answer. Compare this with available common repairs."
+            },
+            {
+              "title": "Return an executable conditional route",
+              "text": "The supplied planner chooses actual inquiries and repairs for explicit cases, operations, outcomes, and costs. A field saying “select the mechanism” would leave that work undone."
+            }
+          ]
+        },
+        {
+          "title": "The limit is part of the result",
+          "children": [
+            {
+              "title": "An inseparable obstruction",
+              "text": "If available inquiries cannot separate cases and no common intervention repairs them, the planner returns that obstruction rather than a fictitious successful plan."
+            },
+            {
+              "title": "The inventory remains revisable",
+              "text": "A newly constructed action or an omitted case changes the selection problem. The original optimum is conditional on what was admitted."
+            }
+          ]
+        }
+      ]
+    },
+    "information-cost": {
+      "title": "More information can lead to a more costly repair",
+      "summary": "The calculation case finishes in 2 work units; the more informative first inspection leads to 3.",
+      "source": "examples/repairing-an-unusable-calculation.md",
+      "parts": [
+        {
+          "title": "The actual objective",
+          "children": [
+            {
+              "title": "Restore usable calculation output",
+              "text": "The value of an observation depends on which repair it enables and what the complete route costs."
+            },
+            {
+              "title": "The better first inquiry",
+              "text": "The supplied case construction identifies the relevant repair with total cost 2. Beginning with the higher-information layout inquiry costs 3 without improving repaired outputs."
+            }
+          ]
+        },
+        {
+          "title": "What a different context changes",
+          "children": [
+            {
+              "title": "Reuse what is already known",
+              "text": "When the relevant context is supplied in advance, repeating that inquiry adds cost. The needed next contribution changes."
+            },
+            {
+              "title": "Revise an incomplete case set",
+              "text": "A previously omitted possible answer invalidates the old coverage. Admitting it requires recomputing the affected plan, not continuing under the earlier case inventory."
+            }
+          ]
+        }
+      ]
+    },
+    "intermediate-inquiry": {
+      "title": "A step with no immediate recommendation change can still be necessary",
+      "summary": "Requiring immediate improvement from every observation rejects both first steps of a better diagnostic route.",
+      "source": "examples/correcting-composed-signs.md",
+      "parts": [
+        {
+          "title": "The original sign inventory",
+          "children": [
+            {
+              "title": "A single inspection does not settle the repair",
+              "text": "The other transformation can still reverse the sign. Either first observation alone leaves the final repair choice unresolved."
+            },
+            {
+              "title": "Both inspections support a cheaper route",
+              "text": "The pair followed by correction costs 3, compared with a reset costing 4. The first question matters through the second."
+            }
+          ]
+        },
+        {
+          "title": "Two distinct corrections to the method",
+          "children": [
+            {
+              "title": "Compare the complete continuation",
+              "text": "Do not discard an enabling question merely because its immediate recommendation is unchanged."
+            },
+            {
+              "title": "Then reconsider the inventory itself",
+              "text": "The positive-source magnitude operation costs 1 and bypasses both inspections. Defending the better old route must not block constructing a better new one."
+            }
+          ]
+        }
+      ]
+    },
+    "knowing-and-doing": {
+      "title": "Understanding a method does not supply every condition for action",
+      "summary": "Skill, instruments, time, access, collaboration, and control can each be a different missing contribution.",
+      "source": "engineering-capability.md",
+      "parts": [
+        {
+          "title": "Locate the missing causal condition",
+          "children": [
+            {
+              "title": "Knowledge is absent",
+              "text": "A usable explanation, demonstration, or practice may supply a needed distinction or operation. Its effect on this person still needs observation."
+            },
+            {
+              "title": "Knowledge is present but execution is blocked",
+              "text": "Understanding two exclusive one-hour tasks cannot complete both in the same available hour. Explanation does not supply the absent time."
+            }
+          ]
+        },
+        {
+          "title": "Change the relevant arrangement",
+          "children": [
+            {
+              "title": "Supply the instrument, access, resource, or coordination",
+              "text": "A correctly identified permission gap remains a gap until the relevant authority grants access or an adequate authorized route is available."
+            },
+            {
+              "title": "Keep the person and their conditions in view",
+              "text": "Capability can belong to a person with tools and support. Attributing every shortfall to belief or intelligence omits those routes."
+            }
+          ]
+        }
+      ]
+    },
+    "learning-and-support": {
+      "title": "Supported performance and retained skill are different accomplishments",
+      "summary": "A supplied operation can complete the task without establishing what the recipient can later do unaided.",
+      "source": "mind-change-and-its-conditions.md#performance-learning-and-transfer-are-different",
+      "parts": [
+        {
+          "title": "Separate the observed claims",
+          "children": [
+            {
+              "title": "An aid performs the operation",
+              "text": "A working planner can supply a valid finite route for its admitted cases. This is a property of the supplied arrangement."
+            },
+            {
+              "title": "A person learns the operation",
+              "text": "Retained discrimination, execution, and later recall concern the person’s capability. Successful output with the aid does not by itself establish those changes."
+            }
+          ]
+        },
+        {
+          "title": "Preserve whichever accomplishment matters",
+          "children": [
+            {
+              "title": "Continued supported capability",
+              "text": "Keep the aid, access, data, maintenance, and correction route available when they are part of the intended arrangement."
+            },
+            {
+              "title": "Later independent use or transfer",
+              "text": "If independence or use in a changed context matters, inspect that performance and its conditions. Removing support without this distinction can remove the demonstrated capability."
+            }
+          ]
+        }
+      ]
+    },
+    "motivation": {
+      "title": "Rejecting a method does not establish rejection of the goal",
+      "summary": "An objection, a lack of resources, and a lack of willingness call for different contributions.",
+      "source": "mind-change-and-its-conditions.md#motivation-emotion-and-external-conditions",
+      "parts": [
+        {
+          "title": "Distinguish what the response concerns",
+          "children": [
+            {
+              "title": "“I will not use this route”",
+              "text": "The objection can concern cost, permission, feasibility, burden, or a better alternative while preserving the desired end."
+            },
+            {
+              "title": "“I want the result but cannot act”",
+              "text": "Motivation does not supply unavailable time, access, skill, or equipment. More encouragement need not change the obstruction."
+            }
+          ]
+        },
+        {
+          "title": "Preserve the actual evidence",
+          "children": [
+            {
+              "title": "Investigate the stated objection",
+              "text": "If an objection identifies absent repair labor, the plan needs a capability correction. Increased enthusiasm does not sustain the service."
+            },
+            {
+              "title": "Do not infer a person’s inner state from task output alone",
+              "text": "Observed nonperformance under a blocked arrangement is compatible with willingness. The conditions and the person’s report need distinct consideration."
+            }
+          ]
+        }
+      ]
+    },
+    "emotion": {
+      "title": "A feeling, its interpretation, and the condition behind it are different targets",
+      "summary": "Reappraisal cannot be credited with repairing an external condition it leaves unchanged.",
+      "source": "mind-change-and-its-conditions.md#motivation-emotion-and-external-conditions",
+      "parts": [
+        {
+          "title": "Distinguish what changed",
+          "children": [
+            {
+              "title": "A person reports a feeling",
+              "text": "That report concerns experience. It does not by itself establish the causal explanation, the external condition, or an improvement."
+            },
+            {
+              "title": "An interpretation changes",
+              "text": "A changed interpretation can matter to experience or action. It does not itself grant access, preserve a contribution, or restore unavailable capacity."
+            }
+          ]
+        },
+        {
+          "title": "Supply the relevant contribution",
+          "children": [
+            {
+              "title": "If a contribution was lost, restore it where possible",
+              "text": "Preserving the actual work is a different operation from asking its author to feel better about the loss."
+            },
+            {
+              "title": "If experience is the concern, attend to experience",
+              "text": "External repair can be valuable without establishing emotional change. Neither accomplishment should be silently substituted for the other."
+            }
+          ]
+        }
+      ]
+    },
+    "agreement": {
+      "title": "Less agreement can be the beneficial change",
+      "summary": "An objection that reveals a missing necessary condition can improve the undertaking by defeating an infeasible plan.",
+      "source": "unoptimized-mind-change-methods.md#agreement-can-increase-while-the-undertaking-gets-worse",
+      "parts": [
+        {
+          "title": "The misleading success measure",
+          "children": [
+            {
+              "title": "A plan gains support",
+              "text": "Confidence and adoption can increase while the plan still lacks concurrent repair labor. Agreement does not change the service capacity."
+            },
+            {
+              "title": "A justified objection reduces support",
+              "text": "Pointing out that absence makes the adopted plan less defensible. Under a concern for sustainable service, that changed judgment is useful."
+            }
+          ]
+        },
+        {
+          "title": "The recipient of correction can change",
+          "children": [
+            {
+              "title": "Revise the plan or its conditions",
+              "text": "Supply concurrent repair or another demonstrated adequate arrangement. Persuading the objector to assent leaves the obstruction intact."
+            },
+            {
+              "title": "Preserve informed agency",
+              "text": "A person’s ability to question, decline, or revise can itself matter. Predictable compliance cannot stand in for that capability."
+            }
+          ]
+        }
+      ]
+    },
+    "completed-operation": {
+      "title": "A framework is incomplete when it names the decisive operation but does not supply it",
+      "summary": "“Choose enough observations and a suitable controller” still leaves the selection task with the recipient.",
+      "source": "unoptimized-mind-change-methods.md#a-completed-framework-can-leave-the-reader-to-perform-the-decisive-work",
+      "parts": [
+        {
+          "title": "The missing contribution",
+          "children": [
+            {
+              "title": "An instruction names the intended result",
+              "text": "A schema containing “diagnose,” “select,” or “improve” can be complete as a document while leaving its central operation unperformed."
+            },
+            {
+              "title": "The recipient still has to construct the answer",
+              "text": "If the person lacks that method, the instruction alone has not supplied the usable capability."
+            }
+          ]
+        },
+        {
+          "title": "The supplied water construction",
+          "children": [
+            {
+              "title": "Observe whether the level is at most 4",
+              "text": "Add 2 when it is; otherwise add 0. Under the stated withdrawals, this policy preserves levels 1–9."
+            },
+            {
+              "title": "Keep the proof and scope available",
+              "text": "The construction removes a specific mathematical selection task. It does not establish that a reader understood, remembered, adopted, or benefited from it."
+            }
+          ]
+        }
+      ]
+    },
+    "usable-consequence": {
+      "title": "A shorter contribution can leave more work before it is useful",
+      "summary": "Efficiency includes interpretation, reconstruction, missing support, and the time remaining for action.",
+      "source": "unoptimized-mind-change-methods.md#fast-change-requires-the-useful-consequence-to-arrive-in-time",
+      "parts": [
+        {
+          "title": "Which duration matters",
+          "children": [
+            {
+              "title": "Sequential dependencies",
+              "text": "If arrival, interpretation, and support take successive times, their sum determines when the contribution becomes usable. Overlap requires the actual dependency path instead."
+            },
+            {
+              "title": "A short but unfinished answer",
+              "text": "Omitting the decisive inference can save reading while adding more reconstruction. Word count alone cannot rank total recipient effort."
+            }
+          ]
+        },
+        {
+          "title": "What the presentation supplies",
+          "children": [
+            {
+              "title": "The consequence with its decisive conditions",
+              "text": "Show what changes in the judgment and why. Keep a condition or counterexample beside the operation it qualifies."
+            },
+            {
+              "title": "Actual human effects remain a separate observation",
+              "text": "Static availability establishes that content is supplied. It does not measure comprehension time, later recall, benefit, or a universal optimum."
+            }
+          ]
+        }
+      ]
+    },
+    "symbolic-bounds": {
+      "title": "Unknown values can still permit an exact design bound",
+      "summary": "A missing measurement need not leave the mathematical consequence unfinished.",
+      "source": "requirements-and-consequences.md#unknown-values-still-permit-exact-engineering-conclusions",
+      "parts": [
+        {
+          "title": "The fixed positive coefficient",
+          "children": [
+            {
+              "title": "Requirement and admitted error",
+              "text": "For y = ax + e, a > 0, e between e_min and e_max, and requirement y ≤ b, the worst error is e_max."
+            },
+            {
+              "title": "The robust bound",
+              "text": "Every admitted error satisfies the requirement exactly when x ≤ (b − e_max) / a. No observed value of e is needed to derive this region."
+            }
+          ]
+        },
+        {
+          "title": "The coefficient or criterion changes",
+          "children": [
+            {
+              "title": "Uncertain positive coefficient",
+              "text": "If a is between a_min and a_max and x ≥ 0, use a_max in the worst case. For negative x the worst coefficient is a_min; ignoring the sign changes the answer."
+            },
+            {
+              "title": "A normative parameter is still a decision",
+              "text": "If b is an unchosen value judgment, the formula does not choose b. It distinguishes the completed conditional deduction from the decision that remains."
+            }
+          ]
+        }
+      ]
+    },
+    "history-and-action": {
+      "title": "Remembered history can supply a distinction absent from the current observation",
+      "summary": "A failure of memoryless control need not establish a failure of every controller.",
+      "source": "mind-change-and-its-conditions.md#remembered-history-can-change-the-available-control",
+      "parts": [
+        {
+          "title": "A complete two-mode construction",
+          "children": [
+            {
+              "title": "Initially distinguish two persistent modes",
+              "text": "The mode is L or R and never changes. An initial observation reveals it; every later observation is the same ready signal."
+            },
+            {
+              "title": "The required action depends on the mode",
+              "text": "Action L succeeds only in mode L; action R succeeds only in mode R. No one action succeeds in both modes."
+            }
+          ]
+        },
+        {
+          "title": "What retaining history changes",
+          "children": [
+            {
+              "title": "Current observation alone is insufficient",
+              "text": "Both modes now look ready, so a memoryless choice based on that reading alone must choose the same action and fail in one mode."
+            },
+            {
+              "title": "The retained initial mode supplies the action",
+              "text": "Choose the action named by the remembered mode. It succeeds at every later step because mode persistence is a premise. A changing or forgotten mode defeats this guarantee."
+            }
+          ]
+        },
+        {
+          "title": "The premise that can defeat the remembered answer",
+          "children": [
+            {
+              "title": "Unobserved mode change",
+              "text": "If the mode changes from L to R after the initial reading, retaining L selects the wrong action. The guarantee needs either persistence or another justified way to detect that change."
+            }
+          ]
+        }
+      ]
+    },
+    "reserve-and-dependence": {
+      "title": "A reserve must cover the admitted joint demand and repair duration",
+      "summary": "Independent worst-case bounds can demand more reserve than the actual joint possibilities require.",
+      "source": "production-and-maintenance.md#reserves-determine-how-long-repair-may-take",
+      "parts": [
+        {
+          "title": "The interruption that must be covered",
+          "children": [
+            {
+              "title": "Constant demand and repair duration",
+              "text": "With demand rate d > 0, duration τ, and no replenishment during repair, preserving service requires and is guaranteed by reserve B ≥ dτ."
+            },
+            {
+              "title": "Both independent maxima are admitted together",
+              "text": "If d_max and τ_max can occur jointly, B ≥ d_max τ_max is both sufficient and necessary under the stated constant-rate model."
+            }
+          ]
+        },
+        {
+          "title": "The dependence that changes the answer",
+          "children": [
+            {
+              "title": "The maxima cannot occur together",
+              "text": "The exact requirement is B ≥ max(dτ) over the admitted joint set. Multiplying separate maxima can overstate the needed reserve."
+            },
+            {
+              "title": "Change a relevant causal quantity",
+              "text": "More reserve, lower demand, faster repair, or an adequate alternate route can change the comparison. Favorable averages do not establish coverage of the worst admitted interruption."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "views": {
+    "mind-change": {
+      "title": "What changes in a mind",
+      "summary": "These are different targets and dependencies of change. Each opens the same result used in the main organization.",
+      "groups": [
+        {
+          "title": "Notice and interpret",
+          "results": [
+            "attention",
+            "representation",
+            "imagination"
+          ]
+        },
+        {
+          "title": "Care, want, and feel",
+          "results": [
+            "changing-goals",
+            "unbundling-values",
+            "motivation",
+            "emotion"
+          ]
+        },
+        {
+          "title": "Understand, remember, and learn",
+          "results": [
+            "completed-operation",
+            "memory",
+            "learning-and-support",
+            "history-and-action"
+          ]
+        },
+        {
+          "title": "Judge, question, and trust",
+          "results": [
+            "disagreement",
+            "shared-evidence",
+            "agreement"
+          ]
+        },
+        {
+          "title": "Act and retain control",
+          "results": [
+            "knowing-and-doing",
+            "permissions",
+            "removing-obstructions"
+          ]
+        }
+      ]
+    },
+    "dependencies": {
+      "title": "What depends on what",
+      "summary": "Prerequisites, shared support, timing, and correction are causal relations. They can cross branches and form cycles.",
+      "groups": [
+        {
+          "title": "A route and its prerequisites",
+          "results": [
+            "ends-and-means",
+            "production-bootstrap",
+            "knowing-and-doing"
+          ]
+        },
+        {
+          "title": "Shared and receiving conditions",
+          "results": [
+            "shared-dependency",
+            "interfaces",
+            "replaceability"
+          ]
+        },
+        {
+          "title": "Continuity and feedback",
+          "results": [
+            "stocks-and-support",
+            "feedback-deadline",
+            "correction-propagation"
+          ]
+        }
+      ]
+    },
+    "claims-and-cases": {
+      "title": "What establishes which claim",
+      "summary": "General relations, stipulated cases, supplied operations, and observed human changes support different conclusions.",
+      "groups": [
+        {
+          "title": "Scope and justified transfer",
+          "results": [
+            "guarantee-scope",
+            "representation",
+            "transfer",
+            "symbolic-bounds"
+          ]
+        },
+        {
+          "title": "Exact constructed counterexamples",
+          "results": [
+            "coverage",
+            "variation",
+            "service-during-repair"
+          ]
+        },
+        {
+          "title": "Executable operations and their conditions",
+          "results": [
+            "new-operation",
+            "common-action",
+            "whole-route"
+          ]
+        },
+        {
+          "title": "Claims an output does not establish",
+          "results": [
+            "learning-and-support",
+            "emotion",
+            "shared-evidence"
+          ]
+        }
+      ]
+    }
+  }
+}

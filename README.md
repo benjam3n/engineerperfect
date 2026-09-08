@@ -1,5 +1,7 @@
 # Engineerperfect
 
+The [organization of the work](organization.md) now continues from the four main questions into distinct results, their internal conditions, and their consequences. [Canonical organization](organization.json). Descriptions of this project, including this introduction and the readings of its name, are separate from that substantive hierarchy. [What was omitted or misplaced](evidence/organization-audit.md).
+
 Engineerperfect develops fast, beneficial, efficient changes in what minds can notice, understand, question, value, and do, together with the means to turn those changes into worthwhile conditions. That purpose governs what this repository investigates, supplies, and puts first.
 
 The literal scope includes physical artifacts, software, manufacturing, and operation. The wider meaning includes deliberately arranging circumstances, improving engineering, and developing the engineer's judgment, skills, instruments, access, and surroundings. An inquiry may also change its question, beneficiary, criterion, or conception of what is possible. [Engineering and perfection](engineering-and-perfection.md) develops these connections. Neither a professional taxonomy nor an initial formal model sets their outer boundary.
@@ -23,6 +25,7 @@ The existing repositories already develop beneficial mind change, perspective co
 | [Production and maintenance](production-and-maintenance.md) | Replenishment, repair labor, reserve size, reproducibility, and continued support |
 | [Designing missing possibilities](designing-missing-possibilities.md) | How changed mechanisms, boundaries, exclusions, and investments alter what can be accomplished |
 | [Engineering capability](engineering-capability.md) | What judgment, tools, resources, observation, and correction each contribute to the actual engineering arrangement |
+| [Mind change and its conditions](mind-change-and-its-conditions.md) | Purpose-changing inquiry, goals and methods, values, attention, memory, learning, feeling, motivation, agency, disagreement, trust, and useful feedback |
 
 [Unoptimized perspectives](unoptimized-perspectives.md) and [unoptimized mind-change methods](unoptimized-mind-change-methods.md) examine specific INCOSE and SEBoK passages alongside our own earlier choices. Their purpose is to supply corrections used throughout these subjects: expose assumed judgments, construct sufficient distinctions, revise restrictive alternatives, preserve consequential disagreement, and make corrections reach the operations that consume them. The critique follows defective inferences and their replacements; institutional names do not determine the repository's organization.
 
