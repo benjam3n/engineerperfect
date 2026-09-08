@@ -1,0 +1,250 @@
+{
+  "review_date": "2026-09-08",
+  "scope": "Focused comparison of six populated repositories at pinned commits. Trees enumerated without truncation; selected documents retrieved. This is not a semantic audit of every repository file or a proof of historical absence.",
+  "heads": [
+    {
+      "repository": "benjam3n/mindchangeresearch",
+      "date": "2026-09-08T11:33:20Z",
+      "message": "Audit deferred reasoning, placeholders, and performativity across four repositories\n\nPreserve exact occurrence inventories, executed acceptance counterexamples, completed missing deductions, and the integrated philosophy. Distinguish repaired historical defects, legitimate procedures and abstractions, and surviving failures at the pinned audit cutoff.\n\nPreserve concurrent catalogs, inquiries, findings, and all original research credit. Include the complete audit in the verified checkpoint.",
+      "sha": "eeab4b4b54415d436fc838a4e8546403269dd9b3",
+      "tree": "ed42396c95a1ff56ba700b2f7ab414316a9bcc2b",
+      "file_count": 1998
+    },
+    {
+      "repository": "benjam3n/subjectsystems",
+      "date": "2026-09-08T03:27:37Z",
+      "message": "Make beneficial mind-change selection the default model-operated process",
+      "sha": "55364748b120126cb9e8126cc685838f3c8409c3",
+      "tree": "6dd120e14e5ed12dd614a26902c83536b12f484c",
+      "file_count": 220
+    },
+    {
+      "repository": "benjam3n/perspectiveoptimizer",
+      "date": "2026-09-08T03:29:17Z",
+      "message": "Use shared mind-change standards to select and arrange contributions by default",
+      "sha": "899c98c31708e9c5bd870a0d013d9f8325dc49e0",
+      "tree": "8dd741771bc1b697526b9cab7317db533e2795d5",
+      "file_count": 99
+    },
+    {
+      "repository": "benjam3n/autophilosophy2",
+      "date": "2026-09-08T11:17:29Z",
+      "message": "Derive the minimum representation that preserves answers through action\n\nPresent availability merges protected access, revocable permission, and authority awaiting activation. Derive which distinctions must survive for exact updates through every finite sequence of given deterministic actions, and show why single-action comparisons miss the finalization-then-veto distinction.\n\nConstruct the minimum representation, prove termination of finite partition refinement, and identify the irrelevant pass-color distinction that can be removed. Integrate the result into the subject catalog, derivation relations, translations, and reading order. Replace two definitions that referred to an absent Intelligence entry with explicit local definitions and record their adaptation.\n\nVerification: independently searched decoders and updaters across all 5 partitions of every 3-state, 2-action, binary-answer system (5,832 systems); checked the concrete access model and empty-action/question boundaries. All 23 revised construction checks and 23 structural/textual checks pass. All 43 uploaded files match the reviewed local bytes.",
+      "sha": "a646e2edaed739e7cdcbfa3d783e7a297fbbfd7b",
+      "tree": "db9b6738d329a16cc88d2e2142bf1ebea6eae359",
+      "file_count": 43
+    },
+    {
+      "repository": "benjam3n/resource-engineering",
+      "date": "2026-09-04T14:36:32Z",
+      "message": "Record the integration status and correct the not-in-repo list\n\n- for-reasoningtool2/integration-notes.md gains a status section: what\n  reasoningtool2 carried, and the answer to this brief's open question 2 —\n  643 of 656 skills (98%) land on the 23 verbs, so the table is the index,\n  with the crowding (search 166, check 99) against the near-empty act and\n  close verbs (configure 9, store 1, maintain 0) as the real finding\n- README: the psych-brain v0_3c workbook is no longer listed as absent\n\nCo-Authored-By: Claude Opus 5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01XJQSQesQfn35wedQyv1XH1",
+      "sha": "3e71dc061eda95f0da3eb9cf9ba3a8b2ba6a4c45",
+      "tree": "57e83fb2496173430a311117783df71c341d4a45",
+      "file_count": 89
+    },
+    {
+      "repository": "benjam3n/reasoningtool2",
+      "date": "2026-09-06T20:19:40Z",
+      "message": "Run 2026-09-06 corpus sweep: not-in-repo material, save-state changes, questions, hierarchy and relation graph seed\n\nMerged the local sweep history into origin/main; README, .gitignore, CLAUDE.md, AGENTS.md, CURRENT.md,\nMETHODS.md unchanged except one README pointer. 15 tests pass; graph seed parses and resolves.\nThe hierarchy and dispatcher in the run are a proposal for verdict, not a change to CURRENT.md.\n\nCo-Authored-By: Claude Fable 5.1 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01VVtUtD3KYvnUdzBnksLMje",
+      "sha": "ae2435b0004ac44de9bb09c2f045805722038dbb",
+      "tree": "a5cbf452188acdb705214d86d32be3ad32920254",
+      "file_count": 76
+    }
+  ],
+  "retrieved_files": [
+    {
+      "repository": "benjam3n/mindchangeresearch",
+      "path": "README.md",
+      "commit": "eeab4b4b54415d436fc838a4e8546403269dd9b3",
+      "blob": "b91ebcfb4c13515c806c3a07c776ec90d6528278"
+    },
+    {
+      "repository": "benjam3n/mindchangeresearch",
+      "path": "working-instruction.md",
+      "commit": "eeab4b4b54415d436fc838a4e8546403269dd9b3",
+      "blob": "80124c4ecc4f0c355c8043b1359631f2d33412f2"
+    },
+    {
+      "repository": "benjam3n/mindchangeresearch",
+      "path": "intent.md",
+      "commit": "eeab4b4b54415d436fc838a4e8546403269dd9b3",
+      "blob": "7b272086d3c1ca15b949633bcc40c5f5b2d47ffa"
+    },
+    {
+      "repository": "benjam3n/mindchangeresearch",
+      "path": "research/deferred-reasoning-2026-09-08/When-descriptions-replace-reasoning.md",
+      "commit": "eeab4b4b54415d436fc838a4e8546403269dd9b3",
+      "blob": "288cc8172f701cd33f77eac9b1ce33b8b9531ae6"
+    },
+    {
+      "repository": "benjam3n/subjectsystems",
+      "path": "README.md",
+      "commit": "55364748b120126cb9e8126cc685838f3c8409c3",
+      "blob": "cbdd3a54927c1a22e385c27c21e1ac0a3c140230"
+    },
+    {
+      "repository": "benjam3n/subjectsystems",
+      "path": "AGENTS.md",
+      "commit": "55364748b120126cb9e8126cc685838f3c8409c3",
+      "blob": "69ebc47708c9004d81c44f0dec1de45b28aee8ef"
+    },
+    {
+      "repository": "benjam3n/subjectsystems",
+      "path": "systems/design-alternative-construction.md",
+      "commit": "55364748b120126cb9e8126cc685838f3c8409c3",
+      "blob": "a84247dbeb5b4331f6ed1b13c87223622ab7c66b"
+    },
+    {
+      "repository": "benjam3n/subjectsystems",
+      "path": "cases/repository-construction.md",
+      "commit": "55364748b120126cb9e8126cc685838f3c8409c3",
+      "blob": "c303badde9481195ec4ae2ff8398bd12578e1e9e"
+    },
+    {
+      "repository": "benjam3n/perspectiveoptimizer",
+      "path": "README.md",
+      "commit": "899c98c31708e9c5bd870a0d013d9f8325dc49e0",
+      "blob": "50b35b9627ca41dac90129287b7717b3a5e552db"
+    },
+    {
+      "repository": "benjam3n/perspectiveoptimizer",
+      "path": "perspective/construction.md",
+      "commit": "899c98c31708e9c5bd870a0d013d9f8325dc49e0",
+      "blob": "5a33f05cd07f2abcbf427e498918831e1735717e"
+    },
+    {
+      "repository": "benjam3n/autophilosophy2",
+      "path": "README.md",
+      "commit": "a646e2edaed739e7cdcbfa3d783e7a297fbbfd7b",
+      "blob": "42a874e278f987ac76e592a4dfcbfada4f068ee2"
+    },
+    {
+      "repository": "benjam3n/autophilosophy2",
+      "path": "findings.md",
+      "commit": "a646e2edaed739e7cdcbfa3d783e7a297fbbfd7b",
+      "blob": "107f7ece6f952cf350b3044685c1bc803c070a16"
+    },
+    {
+      "repository": "benjam3n/autophilosophy2",
+      "path": "unresolved.md",
+      "commit": "a646e2edaed739e7cdcbfa3d783e7a297fbbfd7b",
+      "blob": "1818b8ea0a3009d25051e9a0504650ae82095ab5"
+    },
+    {
+      "repository": "benjam3n/resource-engineering",
+      "path": "README.md",
+      "commit": "3e71dc061eda95f0da3eb9cf9ba3a8b2ba6a4c45",
+      "blob": "f528a6896e92539c4510e256fdfa175d2b7dcc64"
+    },
+    {
+      "repository": "benjam3n/resource-engineering",
+      "path": "INDEX.md",
+      "commit": "3e71dc061eda95f0da3eb9cf9ba3a8b2ba6a4c45",
+      "blob": "98cc23c30d17ee79fdd2ac155267b6596b1b6e6c"
+    },
+    {
+      "repository": "benjam3n/resource-engineering",
+      "path": "for-reasoningtool2/integration-notes.md",
+      "commit": "3e71dc061eda95f0da3eb9cf9ba3a8b2ba6a4c45",
+      "blob": "3806d90563c0dd700e00629c6dccd1b28acb369c"
+    },
+    {
+      "repository": "benjam3n/reasoningtool2",
+      "path": "README.md",
+      "commit": "ae2435b0004ac44de9bb09c2f045805722038dbb",
+      "blob": "05f9991dbd38c2a7171771fef259822b58ad1d99"
+    },
+    {
+      "repository": "benjam3n/reasoningtool2",
+      "path": "CURRENT.md",
+      "commit": "ae2435b0004ac44de9bb09c2f045805722038dbb",
+      "blob": "aab1aa809e487d3d0de75d9dd8187d3215fd8693"
+    },
+    {
+      "repository": "benjam3n/mindchangeresearch",
+      "path": "findings/recipe-adequacy.md",
+      "commit": "eeab4b4b54415d436fc838a4e8546403269dd9b3",
+      "blob": "690f8492618c7e17f4f54f22a9a1ce01a204090e"
+    },
+    {
+      "repository": "benjam3n/mindchangeresearch",
+      "path": "findings/information-and-action.md",
+      "commit": "eeab4b4b54415d436fc838a4e8546403269dd9b3",
+      "blob": "643a3c64bcf3faa6d5703a5fb095ed6ab432b765"
+    },
+    {
+      "repository": "benjam3n/mindchangeresearch",
+      "path": "findings/composition-and-failure.md",
+      "commit": "eeab4b4b54415d436fc838a4e8546403269dd9b3",
+      "blob": "18e0fe653ee7b7e8d54d762e8d58b342df52499a"
+    },
+    {
+      "repository": "benjam3n/mindchangeresearch",
+      "path": "findings/reliability-and-benefit.md",
+      "commit": "eeab4b4b54415d436fc838a4e8546403269dd9b3",
+      "blob": "d754ff9f01c79e42c6c66516560ba4c0b4c520fe"
+    },
+    {
+      "repository": "benjam3n/mindchangeresearch",
+      "path": "mind-change/subject-systems.md",
+      "commit": "eeab4b4b54415d436fc838a4e8546403269dd9b3",
+      "blob": "3a43da39592fbbc68ebe649e1d9a4132873c28c8"
+    },
+    {
+      "repository": "benjam3n/mindchangeresearch",
+      "path": "mind-change/contribution-construction.md",
+      "commit": "eeab4b4b54415d436fc838a4e8546403269dd9b3",
+      "blob": "640e133a463c7c47e28914a764130c80af4d1e90"
+    },
+    {
+      "repository": "benjam3n/autophilosophy2",
+      "path": "deductions/10-system-outcome-realization.md",
+      "commit": "a646e2edaed739e7cdcbfa3d783e7a297fbbfd7b",
+      "blob": "d862f32629d3074176658e05ed1f18ebca4fc2fd"
+    },
+    {
+      "repository": "benjam3n/autophilosophy2",
+      "path": "deductions/23-representation-preservation-under-action.md",
+      "commit": "a646e2edaed739e7cdcbfa3d783e7a297fbbfd7b",
+      "blob": "a96d690a4cc703227a6642d3c7cec669d69177fc"
+    },
+    {
+      "repository": "benjam3n/resource-engineering",
+      "path": "context/laws.md",
+      "commit": "3e71dc061eda95f0da3eb9cf9ba3a8b2ba6a4c45",
+      "blob": "0380c0b6e6f8156a7f11f8b75168b0643134a798"
+    },
+    {
+      "repository": "benjam3n/resource-engineering",
+      "path": "context/open-problems.md",
+      "commit": "3e71dc061eda95f0da3eb9cf9ba3a8b2ba6a4c45",
+      "blob": "bc26168f2005cd21bbc2f8288181f0830ac14f56"
+    }
+  ],
+  "empty_at_initial_and_followup_check": [
+    "benjam3n/engineerperfect",
+    "benjam3n/improvementresearch"
+  ],
+  "external_sources": [
+    {
+      "url": "https://www.merriam-webster.com/dictionary/engineer",
+      "use": "Lexical senses of engineer"
+    },
+    {
+      "url": "https://www.merriam-webster.com/dictionary/engineering",
+      "use": "Literal engineering practice"
+    },
+    {
+      "url": "https://www.merriam-webster.com/dictionary/perfect",
+      "use": "Lexical senses of perfect"
+    },
+    {
+      "url": "https://www.nasa.gov/reference/5-0-product-realization/",
+      "use": "Existing distinction among implementation, integration, verification, validation, and transition; qualification of reused products"
+    },
+    {
+      "url": "https://underactuated.mit.edu/robust.html",
+      "use": "Existing dynamics with disturbances and worst-case control framing"
+    }
+  ]
+}

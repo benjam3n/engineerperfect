@@ -1,0 +1,306 @@
+{
+  "service": {
+    "1": {
+      "maintainable_states": [],
+      "policy": {},
+      "removed_per_iteration": [
+        [
+          [
+            2,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ]
+        ]
+      ]
+    },
+    "2": {
+      "maintainable_states": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "policy": {
+        "(0, 0)": "serve_0",
+        "(0, 1)": "serve_0",
+        "(0, 2)": "serve_0",
+        "(1, 0)": "serve_0",
+        "(1, 1)": "serve_0",
+        "(1, 2)": "serve_0_repair_1",
+        "(2, 0)": "serve_1",
+        "(2, 1)": "serve_1_repair_0"
+      },
+      "removed_per_iteration": [
+        [
+          [
+            2,
+            2
+          ]
+        ]
+      ]
+    }
+  },
+  "shaft_and_hole": {
+    "chosen_nominal_mm": "3/50",
+    "measured_clearance_acceptance_mm": [
+      "3/100",
+      "9/100"
+    ],
+    "nominal_with_extra_drift_mm": "11/200",
+    "old_design_possible": false,
+    "old_nominal_constraints_mm": [
+      "11/100",
+      "1/100"
+    ],
+    "required_clearance_mm": [
+      "1/50",
+      "1/10"
+    ],
+    "revised_actual_clearance_mm": [
+      "7/200",
+      "17/200"
+    ],
+    "revised_nominal_interval_mm": [
+      "9/200",
+      "3/40"
+    ]
+  },
+  "standing": "Exact results for stipulated finite and interval models; no physical deployment or human trial.",
+  "tooling": [
+    {
+      "bootstrap_vs_manual": "manual",
+      "direct_tool": 6,
+      "direct_vs_manual": "manual",
+      "manual": 4,
+      "tool_with_bootstrap": 10,
+      "units": 1
+    },
+    {
+      "bootstrap_vs_manual": "manual",
+      "direct_tool": 7,
+      "direct_vs_manual": "tool",
+      "manual": 8,
+      "tool_with_bootstrap": 11,
+      "units": 2
+    },
+    {
+      "bootstrap_vs_manual": "tie",
+      "direct_tool": 8,
+      "direct_vs_manual": "tool",
+      "manual": 12,
+      "tool_with_bootstrap": 12,
+      "units": 3
+    },
+    {
+      "bootstrap_vs_manual": "tool",
+      "direct_tool": 11,
+      "direct_vs_manual": "tool",
+      "manual": 16,
+      "tool_with_bootstrap": 15,
+      "units": 4
+    },
+    {
+      "bootstrap_vs_manual": "tool",
+      "direct_tool": 12,
+      "direct_vs_manual": "tool",
+      "manual": 20,
+      "tool_with_bootstrap": 16,
+      "units": 5
+    },
+    {
+      "bootstrap_vs_manual": "tool",
+      "direct_tool": 13,
+      "direct_vs_manual": "tool",
+      "manual": 24,
+      "tool_with_bootstrap": 17,
+      "units": 6
+    },
+    {
+      "bootstrap_vs_manual": "tool",
+      "direct_tool": 16,
+      "direct_vs_manual": "tool",
+      "manual": 28,
+      "tool_with_bootstrap": 20,
+      "units": 7
+    },
+    {
+      "bootstrap_vs_manual": "tool",
+      "direct_tool": 17,
+      "direct_vs_manual": "tool",
+      "manual": 32,
+      "tool_with_bootstrap": 21,
+      "units": 8
+    },
+    {
+      "bootstrap_vs_manual": "tool",
+      "direct_tool": 18,
+      "direct_vs_manual": "tool",
+      "manual": 36,
+      "tool_with_bootstrap": 22,
+      "units": 9
+    },
+    {
+      "bootstrap_vs_manual": "tool",
+      "direct_tool": 21,
+      "direct_vs_manual": "tool",
+      "manual": 40,
+      "tool_with_bootstrap": 25,
+      "units": 10
+    },
+    {
+      "bootstrap_vs_manual": "tool",
+      "direct_tool": 22,
+      "direct_vs_manual": "tool",
+      "manual": 44,
+      "tool_with_bootstrap": 26,
+      "units": 11
+    },
+    {
+      "bootstrap_vs_manual": "tool",
+      "direct_tool": 23,
+      "direct_vs_manual": "tool",
+      "manual": 48,
+      "tool_with_bootstrap": 27,
+      "units": 12
+    }
+  ],
+  "water": {
+    "binary_observation_safe_actions": {
+      "high": [
+        -2,
+        -1,
+        0
+      ],
+      "low": [
+        2,
+        3
+      ]
+    },
+    "binary_policy_preserving_transitions": 27,
+    "blind_observation_safe_actions": {
+      "same": []
+    },
+    "maintainable_states": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "minimum_worst_case_steps": {
+      "1": 3,
+      "2": 2,
+      "3": 1,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 1,
+      "8": 1,
+      "9": 1
+    },
+    "reach_and_stay_policy": {
+      "1": 3,
+      "2": 3,
+      "3": 3,
+      "4": 2,
+      "5": 1,
+      "6": 0,
+      "7": -1,
+      "8": -2,
+      "9": -3
+    },
+    "target_maintainable_states": [
+      4,
+      5,
+      6
+    ],
+    "zero_action_counterexamples": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        -1
+      ],
+      [
+        2,
+        0,
+        0
+      ]
+    ]
+  }
+}
